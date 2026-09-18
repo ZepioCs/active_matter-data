@@ -1,0 +1,4965 @@
+{
+  "schemaVersion": 1,
+  "_note": "Weapon attachments (mods). Hand entries first (wiki-sourced M110A1 set), then game-files bulk import (gamedata/templates guns_mods/modern_scopes/modern_items, see docs/mods.md). Each attachment belongs to a slot, lists compatible weapon ids, and carries percent modifiers keyed by wiki stat name (Aiming Speed maps to Aiming (s); percents on it apply inversely because the stat is a time). Magazine capacity overrides the weapon Magazine stat. Weight, volume and shop prices add up onto the weapon. Modifiers that hit no stat on the weapon are shown as info chips instead. Effect figures are computed from game files; suppressor loudness differs from older wiki snapshots (game files win). Screenshots: save square PNGs under public/images/mods/ (e.g. hx-qd-m110a1.png), set image to the /images/mods/... path plus an imageSource attribution URL, and the icon appears in the slot tile and picker automatically; without an image the slot glyph is used as placeholder.",
+  "slots": [
+    {
+      "id": "magazine",
+      "label": "Magazine"
+    },
+    {
+      "id": "muzzle",
+      "label": "Muzzle"
+    },
+    {
+      "id": "scope",
+      "label": "Scope"
+    },
+    {
+      "id": "stock",
+      "label": "Stock"
+    },
+    {
+      "id": "grip",
+      "label": "Pistol grip"
+    },
+    {
+      "id": "underbarrel",
+      "label": "Underbarrel"
+    },
+    {
+      "id": "tactical",
+      "label": "Side rails"
+    }
+  ],
+  "attachments": [
+    {
+      "id": "m110a1-10rds",
+      "name": "M110A1 10 rds. magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "m110a1"
+      ],
+      "capacity": 10,
+      "modifiers": {
+        "Aiming Speed": 3
+      },
+      "weight": 0.2,
+      "volume": 40,
+      "shopPrice": 390,
+      "source": "https://activematter.wiki.gg/wiki/M110A1_10_rds._magazine",
+      "short": "10"
+    },
+    {
+      "id": "m110a1-20rd",
+      "name": "M110A1 magazine (20 rds.)",
+      "slot": "magazine",
+      "rarity": "Uncommon",
+      "weapons": [
+        "m110a1"
+      ],
+      "capacity": 20,
+      "modifiers": {},
+      "weight": 0.3,
+      "volume": 70,
+      "shopPrice": null,
+      "source": "https://activematter.wiki.gg/wiki/M110A1_magazine",
+      "short": "20"
+    },
+    {
+      "id": "hx-qd-m110a1",
+      "name": "HX-QD Suppressor for M110A1",
+      "slot": "muzzle",
+      "rarity": "Uncommon",
+      "weapons": [
+        "m110a1"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Shot Loudness": -40,
+        "Aiming Speed": -9,
+        "Recoil": -3
+      },
+      "weight": 0.5,
+      "volume": 40,
+      "shopPrice": 5750,
+      "source": "https://activematter.wiki.gg/wiki/HX-QD_Suppressor_for_M110A1",
+      "short": "hx"
+    },
+    {
+      "id": "atlantic-ak-skeleton-grip-black",
+      "name": "Atlantis AK Black Pistol Grip",
+      "slot": "grip",
+      "rarity": "Common",
+      "weapons": [
+        "ak-103",
+        "ak-12",
+        "ak-74",
+        "aks-74u",
+        "origin-12",
+        "pp-19-vityaz",
+        "rpk-74"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": 5,
+        "Hand Stamina Drain": -6
+      },
+      "weight": 0.2,
+      "volume": 25,
+      "shopPrice": 1025,
+      "source": "https://activematter.wiki.gg/wiki/Atlantis_AK_Pistol_Grip"
+    },
+    {
+      "id": "atlantic-ak-skeleton-grip-gold",
+      "name": "Atlantis AK Gold Pistol Grip",
+      "slot": "grip",
+      "rarity": "Common",
+      "weapons": [
+        "ak-103",
+        "ak-12",
+        "ak-74",
+        "aks-74u",
+        "origin-12",
+        "pp-19-vityaz",
+        "rpk-74"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": 5,
+        "Hand Stamina Drain": -6
+      },
+      "weight": 0.2,
+      "volume": 25,
+      "shopPrice": 1025,
+      "source": "https://activematter.wiki.gg/wiki/Atlantis_AK_Pistol_Grip"
+    },
+    {
+      "id": "caa-ak-grip-black",
+      "name": "Ergo AK Black Pistol Grip",
+      "slot": "grip",
+      "rarity": "Uncommon",
+      "weapons": [
+        "ak-103",
+        "ak-12",
+        "ak-74",
+        "aks-74u",
+        "origin-12",
+        "pp-19-vityaz",
+        "rpk-74"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": 8,
+        "Hand Stamina Drain": -8
+      },
+      "weight": 0.12,
+      "volume": 25,
+      "shopPrice": 6000,
+      "source": "https://activematter.wiki.gg/wiki/Ergo_AK_Pistol_Grip"
+    },
+    {
+      "id": "caa-ak-grip-olive",
+      "name": "Ergo AK Olive Pistol Grip",
+      "slot": "grip",
+      "rarity": "Uncommon",
+      "weapons": [
+        "ak-103",
+        "ak-12",
+        "ak-74",
+        "aks-74u",
+        "origin-12",
+        "pp-19-vityaz",
+        "rpk-74"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": 8,
+        "Hand Stamina Drain": -8
+      },
+      "weight": 0.12,
+      "volume": 25,
+      "shopPrice": 6000,
+      "source": "https://activematter.wiki.gg/wiki/Ergo_AK_Pistol_Grip"
+    },
+    {
+      "id": "caa-ak-grip-olive-black",
+      "name": "Ergo AK Olive-Black Pistol Grip",
+      "slot": "grip",
+      "rarity": "Uncommon",
+      "weapons": [
+        "ak-103",
+        "ak-12",
+        "ak-74",
+        "aks-74u",
+        "origin-12",
+        "pp-19-vityaz",
+        "rpk-74"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": 8,
+        "Hand Stamina Drain": -8
+      },
+      "weight": 0.12,
+      "volume": 25,
+      "shopPrice": 6000,
+      "source": "https://activematter.wiki.gg/wiki/Ergo_AK_Pistol_Grip"
+    },
+    {
+      "id": "caa-ak-grip-tan",
+      "name": "Ergo AK Tan Pistol Grip",
+      "slot": "grip",
+      "rarity": "Uncommon",
+      "weapons": [
+        "ak-103",
+        "ak-12",
+        "ak-74",
+        "aks-74u",
+        "origin-12",
+        "pp-19-vityaz",
+        "rpk-74"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": 8,
+        "Hand Stamina Drain": -8
+      },
+      "weight": 0.12,
+      "volume": 25,
+      "shopPrice": 6000,
+      "source": "https://activematter.wiki.gg/wiki/Ergo_AK_Pistol_Grip"
+    },
+    {
+      "id": "caa-ak-grip-tan-black",
+      "name": "Ergo AK Tan-Black Pistol Grip",
+      "slot": "grip",
+      "rarity": "Uncommon",
+      "weapons": [
+        "ak-103",
+        "ak-12",
+        "ak-74",
+        "aks-74u",
+        "origin-12",
+        "pp-19-vityaz",
+        "rpk-74"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": 8,
+        "Hand Stamina Drain": -8
+      },
+      "weight": 0.12,
+      "volume": 25,
+      "shopPrice": 6000,
+      "source": "https://activematter.wiki.gg/wiki/Ergo_AK_Pistol_Grip"
+    },
+    {
+      "id": "caa-m-grip-black",
+      "name": "Ergo AR Black Pistol Grip",
+      "slot": "grip",
+      "rarity": "Uncommon",
+      "weapons": [
+        "barrett-m82a1",
+        "hk416a5",
+        "m110a1",
+        "m16a4",
+        "m4",
+        "m4a1",
+        "scar-h",
+        "scar-l"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": 8,
+        "Hand Stamina Drain": -8
+      },
+      "weight": 0.12,
+      "volume": 25,
+      "shopPrice": 6060,
+      "source": "https://activematter.wiki.gg/wiki/Ergo_AR_Pistol_Grip"
+    },
+    {
+      "id": "caa-m-grip-olive",
+      "name": "Ergo AR Olive Pistol Grip",
+      "slot": "grip",
+      "rarity": "Uncommon",
+      "weapons": [
+        "barrett-m82a1",
+        "hk416a5",
+        "m110a1",
+        "m16a4",
+        "m4",
+        "m4a1",
+        "scar-h",
+        "scar-l"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": 8,
+        "Hand Stamina Drain": -8
+      },
+      "weight": 0.12,
+      "volume": 25,
+      "shopPrice": 6060,
+      "source": "https://activematter.wiki.gg/wiki/Ergo_AR_Pistol_Grip"
+    },
+    {
+      "id": "caa-m-grip-olive-black",
+      "name": "Ergo AR Olive-Black Pistol Grip",
+      "slot": "grip",
+      "rarity": "Uncommon",
+      "weapons": [
+        "barrett-m82a1",
+        "hk416a5",
+        "m110a1",
+        "m16a4",
+        "m4",
+        "m4a1",
+        "scar-h",
+        "scar-l"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": 8,
+        "Hand Stamina Drain": -8
+      },
+      "weight": 0.12,
+      "volume": 25,
+      "shopPrice": 6060,
+      "source": "https://activematter.wiki.gg/wiki/Ergo_AR_Pistol_Grip"
+    },
+    {
+      "id": "caa-m-grip-tan",
+      "name": "Ergo AR Tan Pistol Grip",
+      "slot": "grip",
+      "rarity": "Uncommon",
+      "weapons": [
+        "barrett-m82a1",
+        "hk416a5",
+        "m110a1",
+        "m16a4",
+        "m4",
+        "m4a1",
+        "scar-h",
+        "scar-l"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": 8,
+        "Hand Stamina Drain": -8
+      },
+      "weight": 0.12,
+      "volume": 25,
+      "shopPrice": 6060,
+      "source": "https://activematter.wiki.gg/wiki/Ergo_AR_Pistol_Grip"
+    },
+    {
+      "id": "caa-m-grip-tan-black",
+      "name": "Ergo AR Tan-Black Pistol Grip",
+      "slot": "grip",
+      "rarity": "Uncommon",
+      "weapons": [
+        "barrett-m82a1",
+        "hk416a5",
+        "m110a1",
+        "m16a4",
+        "m4",
+        "m4a1",
+        "scar-h",
+        "scar-l"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": 8,
+        "Hand Stamina Drain": -8
+      },
+      "weight": 0.12,
+      "volume": 25,
+      "shopPrice": 6060,
+      "source": "https://activematter.wiki.gg/wiki/Ergo_AR_Pistol_Grip"
+    },
+    {
+      "id": "f1-grip-black",
+      "name": "F1 Black Pistol Grip",
+      "slot": "grip",
+      "rarity": "Rare",
+      "weapons": [
+        "barrett-m82a1",
+        "hk416a5",
+        "m110a1",
+        "m16a4",
+        "m4",
+        "m4a1",
+        "scar-h",
+        "scar-l"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": 7,
+        "Hand Stamina Drain": -11
+      },
+      "weight": 0.11,
+      "volume": 25,
+      "shopPrice": 14000,
+      "source": "https://activematter.wiki.gg/wiki/F1_Black_Pistol_Grip"
+    },
+    {
+      "id": "spg-ak-grip-black",
+      "name": "Frame AK Black Pistol Grip",
+      "slot": "grip",
+      "rarity": "Uncommon",
+      "weapons": [
+        "ak-103",
+        "ak-12",
+        "ak-74",
+        "aks-74u",
+        "origin-12",
+        "pp-19-vityaz",
+        "rpk-74"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": 10,
+        "Hand Stamina Drain": -6
+      },
+      "weight": 0.15,
+      "volume": 25,
+      "shopPrice": 8360,
+      "source": "https://activematter.wiki.gg/wiki/Frame_AK_Pistol_Grip"
+    },
+    {
+      "id": "spg-ak-grip-green",
+      "name": "Frame AK Green Pistol Grip",
+      "slot": "grip",
+      "rarity": "Uncommon",
+      "weapons": [
+        "ak-103",
+        "ak-12",
+        "ak-74",
+        "aks-74u",
+        "origin-12",
+        "pp-19-vityaz",
+        "rpk-74"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": 10,
+        "Hand Stamina Drain": -6
+      },
+      "weight": 0.15,
+      "volume": 25,
+      "shopPrice": 8360,
+      "source": "https://activematter.wiki.gg/wiki/Frame_AK_Pistol_Grip"
+    },
+    {
+      "id": "spg-ak-grip-tan",
+      "name": "Frame AK Tan Pistol Grip",
+      "slot": "grip",
+      "rarity": "Uncommon",
+      "weapons": [
+        "ak-103",
+        "ak-12",
+        "ak-74",
+        "aks-74u",
+        "origin-12",
+        "pp-19-vityaz",
+        "rpk-74"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": 10,
+        "Hand Stamina Drain": -6
+      },
+      "weight": 0.15,
+      "volume": 25,
+      "shopPrice": 8360,
+      "source": "https://activematter.wiki.gg/wiki/Frame_AK_Pistol_Grip"
+    },
+    {
+      "id": "magpul-k2-grip-black",
+      "name": "K2 AK Black Pistol Grip",
+      "slot": "grip",
+      "rarity": "Common",
+      "weapons": [
+        "ak-103",
+        "ak-12",
+        "ak-74",
+        "aks-74u",
+        "origin-12",
+        "pp-19-vityaz",
+        "rpk-74"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": 3,
+        "Hand Stamina Drain": -8
+      },
+      "weight": 0.09,
+      "volume": 25,
+      "shopPrice": 490,
+      "source": "https://activematter.wiki.gg/wiki/K2_AK_Pistol_Grip"
+    },
+    {
+      "id": "magpul-k2-grip-sand",
+      "name": "K2 AK Sand Pistol Grip",
+      "slot": "grip",
+      "rarity": "Common",
+      "weapons": [
+        "ak-103",
+        "ak-12",
+        "ak-74",
+        "aks-74u",
+        "origin-12",
+        "pp-19-vityaz",
+        "rpk-74"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": 3,
+        "Hand Stamina Drain": -8
+      },
+      "weight": 0.09,
+      "volume": 25,
+      "shopPrice": 490,
+      "source": "https://activematter.wiki.gg/wiki/K2_AK_Pistol_Grip"
+    },
+    {
+      "id": "magpul-k2-plus-grip-black",
+      "name": "K2 Plus AR Black Pistol Grip",
+      "slot": "grip",
+      "rarity": "Common",
+      "weapons": [
+        "barrett-m82a1",
+        "hk416a5",
+        "m110a1",
+        "m16a4",
+        "m4",
+        "m4a1",
+        "scar-h",
+        "scar-l"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": 4,
+        "Hand Stamina Drain": -9
+      },
+      "weight": 0.09,
+      "volume": 25,
+      "shopPrice": 820,
+      "source": "https://activematter.wiki.gg/wiki/K2_Plus_AR_Pistol_Grip"
+    },
+    {
+      "id": "magpul-k2-plus-grip-sand",
+      "name": "K2 Plus AR Sand Pistol Grip",
+      "slot": "grip",
+      "rarity": "Common",
+      "weapons": [
+        "barrett-m82a1",
+        "hk416a5",
+        "m110a1",
+        "m16a4",
+        "m4",
+        "m4a1",
+        "scar-h",
+        "scar-l"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": 4,
+        "Hand Stamina Drain": -9
+      },
+      "weight": 0.09,
+      "volume": 25,
+      "shopPrice": 820,
+      "source": "https://activematter.wiki.gg/wiki/K2_Plus_AR_Pistol_Grip"
+    },
+    {
+      "id": "mac11-grip",
+      "name": "MAC-11 Pistol Grip",
+      "slot": "grip",
+      "rarity": "Common",
+      "weapons": [
+        "mac-11"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": 10,
+        "Hand Stamina Drain": -5
+      },
+      "weight": 0.045,
+      "volume": 25,
+      "shopPrice": 900,
+      "source": "https://activematter.wiki.gg/wiki/MAC-11_Pistol_Grip"
+    },
+    {
+      "id": "concept-one-grip-black",
+      "name": "Tyr C1 AR Black Pistol Grip",
+      "slot": "grip",
+      "rarity": "Uncommon",
+      "weapons": [
+        "barrett-m82a1",
+        "hk416a5",
+        "m110a1",
+        "m16a4",
+        "m4",
+        "m4a1",
+        "scar-h",
+        "scar-l"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": 7,
+        "Hand Stamina Drain": -8
+      },
+      "weight": 0.15,
+      "volume": 25,
+      "shopPrice": 4600,
+      "source": "https://activematter.wiki.gg/wiki/Tyr_C1_AR_Pistol_Grip"
+    },
+    {
+      "id": "concept-one-grip-red",
+      "name": "Tyr C1 AR Red Pistol Grip",
+      "slot": "grip",
+      "rarity": "Uncommon",
+      "weapons": [
+        "barrett-m82a1",
+        "hk416a5",
+        "m110a1",
+        "m16a4",
+        "m4",
+        "m4a1",
+        "scar-h",
+        "scar-l"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": 7,
+        "Hand Stamina Drain": -8
+      },
+      "weight": 0.15,
+      "volume": 25,
+      "shopPrice": 4600,
+      "source": "https://activematter.wiki.gg/wiki/Tyr_C1_AR_Pistol_Grip"
+    },
+    {
+      "id": "tyrant-grip-black",
+      "name": "Tyr LWP Black Pistol Grip",
+      "slot": "grip",
+      "rarity": "Uncommon",
+      "weapons": [
+        "barrett-m82a1",
+        "hk416a5",
+        "m110a1",
+        "m16a4",
+        "m4",
+        "m4a1",
+        "scar-h",
+        "scar-l"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": 6,
+        "Hand Stamina Drain": -10
+      },
+      "weight": 0.1,
+      "volume": 25,
+      "shopPrice": 7500,
+      "source": "https://activematter.wiki.gg/wiki/Tyr_LWP_Pistol_Grip"
+    },
+    {
+      "id": "tyrant-grip-blue",
+      "name": "Tyr LWP Blue Pistol Grip",
+      "slot": "grip",
+      "rarity": "Uncommon",
+      "weapons": [
+        "barrett-m82a1",
+        "hk416a5",
+        "m110a1",
+        "m16a4",
+        "m4",
+        "m4a1",
+        "scar-h",
+        "scar-l"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": 6,
+        "Hand Stamina Drain": -10
+      },
+      "weight": 0.1,
+      "volume": 25,
+      "shopPrice": 7500,
+      "source": "https://activematter.wiki.gg/wiki/Tyr_LWP_Pistol_Grip"
+    },
+    {
+      "id": "zenitco-rk3-grip-black",
+      "name": "Z-KO RK3 AK Black Pistol Grip",
+      "slot": "grip",
+      "rarity": "Common",
+      "weapons": [
+        "ak-103",
+        "ak-12",
+        "ak-74",
+        "aks-74u",
+        "origin-12",
+        "pp-19-vityaz",
+        "rpk-74"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": 6,
+        "Hand Stamina Drain": -7
+      },
+      "weight": 0.19,
+      "volume": 25,
+      "shopPrice": 1550,
+      "source": "https://activematter.wiki.gg/wiki/Z-KO_RK3_AK_Pistol_Grip"
+    },
+    {
+      "id": "zenitco-rk3-grip-sand",
+      "name": "Z-KO RK3 AK Sand Pistol Grip",
+      "slot": "grip",
+      "rarity": "Common",
+      "weapons": [
+        "ak-103",
+        "ak-12",
+        "ak-74",
+        "aks-74u",
+        "origin-12",
+        "pp-19-vityaz",
+        "rpk-74"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": 6,
+        "Hand Stamina Drain": -7
+      },
+      "weight": 0.19,
+      "volume": 25,
+      "shopPrice": 1550,
+      "source": "https://activematter.wiki.gg/wiki/Z-KO_RK3_AK_Pistol_Grip"
+    },
+    {
+      "id": "zenitco-rk9-grip-black",
+      "name": "Z-KO RK9 AK Black Pistol Grip",
+      "slot": "grip",
+      "rarity": "Common",
+      "weapons": [
+        "ak-103",
+        "ak-12",
+        "ak-74",
+        "aks-74u",
+        "origin-12",
+        "pp-19-vityaz",
+        "rpk-74"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": 5,
+        "Hand Stamina Drain": -8
+      },
+      "weight": 0.16,
+      "volume": 25,
+      "shopPrice": 1920,
+      "source": "https://activematter.wiki.gg/wiki/Z-KO_RK9_AK_Pistol_Grip"
+    },
+    {
+      "id": "zenitco-rk9-grip-green",
+      "name": "Z-KO RK9 AK Green Pistol Grip",
+      "slot": "grip",
+      "rarity": "Common",
+      "weapons": [
+        "ak-103",
+        "ak-12",
+        "ak-74",
+        "aks-74u",
+        "origin-12",
+        "pp-19-vityaz",
+        "rpk-74"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": 5,
+        "Hand Stamina Drain": -8
+      },
+      "weight": 0.16,
+      "volume": 25,
+      "shopPrice": 1920,
+      "source": "https://activematter.wiki.gg/wiki/Z-KO_RK9_AK_Pistol_Grip"
+    },
+    {
+      "id": "zenitco-rk9-m-grip-black",
+      "name": "Z-KO RK9 AR Black Pistol Grip",
+      "slot": "grip",
+      "rarity": "Common",
+      "weapons": [
+        "barrett-m82a1",
+        "hk416a5",
+        "m110a1",
+        "m16a4",
+        "m4",
+        "m4a1",
+        "scar-h",
+        "scar-l"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": 5,
+        "Hand Stamina Drain": -8
+      },
+      "weight": 0.15,
+      "volume": 25,
+      "shopPrice": 1835,
+      "source": "https://activematter.wiki.gg/wiki/Z-KO_RK9_AR_Pistol_Grip"
+    },
+    {
+      "id": "zenitco-rk9-m-grip-sand",
+      "name": "Z-KO RK9 AR Sand Pistol Grip",
+      "slot": "grip",
+      "rarity": "Common",
+      "weapons": [
+        "barrett-m82a1",
+        "hk416a5",
+        "m110a1",
+        "m16a4",
+        "m4",
+        "m4a1",
+        "scar-h",
+        "scar-l"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": 5,
+        "Hand Stamina Drain": -8
+      },
+      "weight": 0.15,
+      "volume": 25,
+      "shopPrice": 1835,
+      "source": "https://activematter.wiki.gg/wiki/Z-KO_RK9_AR_Pistol_Grip"
+    },
+    {
+      "id": "ak-5-45x39-60rnds-magazine",
+      "name": "AK 60 rds. magazine",
+      "slot": "magazine",
+      "rarity": "Rare",
+      "weapons": [
+        "aek-971",
+        "ak-12",
+        "ak-74",
+        "aks-74u",
+        "an-94-abakan",
+        "rpk-74"
+      ],
+      "capacity": 60,
+      "modifiers": {
+        "Aiming Speed": -11
+      },
+      "weight": 0.32,
+      "volume": 130,
+      "shopPrice": 2000,
+      "source": "https://activematter.wiki.gg/wiki/AK_60_rds._magazine"
+    },
+    {
+      "id": "ak-5-45x39-45rnds-magazine",
+      "name": "AK 6L26 45 rds. magazine",
+      "slot": "magazine",
+      "rarity": "Uncommon",
+      "weapons": [
+        "aek-971",
+        "ak-12",
+        "ak-74",
+        "aks-74u",
+        "an-94-abakan",
+        "rpk-74"
+      ],
+      "capacity": 45,
+      "modifiers": {
+        "Aiming Speed": -6
+      },
+      "weight": 0.29,
+      "volume": 100,
+      "shopPrice": 1500,
+      "source": "https://activematter.wiki.gg/wiki/AK_6L26_45_rds._magazine"
+    },
+    {
+      "id": "ak-103-magazine",
+      "name": "AK-103 magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "ak-103",
+        "ak-15sk",
+        "tkb-22"
+      ],
+      "capacity": 30,
+      "modifiers": {},
+      "weight": 0.25,
+      "volume": 70,
+      "shopPrice": 650,
+      "source": "https://activematter.wiki.gg/wiki/AK-103_magazine"
+    },
+    {
+      "id": "ak-12-magazine",
+      "name": "AK-12 magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "aek-971",
+        "ak-12",
+        "ak-74",
+        "aks-74u",
+        "an-94-abakan",
+        "rpk-74"
+      ],
+      "capacity": 30,
+      "modifiers": {},
+      "weight": 0.22,
+      "volume": 70,
+      "shopPrice": 600,
+      "source": "https://activematter.wiki.gg/wiki/AK-12_magazine"
+    },
+    {
+      "id": "ak-74-magazine",
+      "name": "AK-74 magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "aek-971",
+        "ak-12",
+        "ak-74",
+        "aks-74u",
+        "an-94-abakan",
+        "rpk-74"
+      ],
+      "capacity": 30,
+      "modifiers": {},
+      "weight": 0.235,
+      "volume": 70,
+      "shopPrice": 600,
+      "source": "https://activematter.wiki.gg/wiki/AK-74_magazine"
+    },
+    {
+      "id": "akm-47-enhanced-magazine",
+      "name": "AKM Enhanced Magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "ak-103",
+        "ak-15sk",
+        "tkb-22"
+      ],
+      "capacity": 30,
+      "modifiers": {
+        "Damage": 17
+      },
+      "weight": 0.25,
+      "volume": 70,
+      "shopPrice": 650
+    },
+    {
+      "id": "akm-47-magazine",
+      "name": "AKM magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "ak-103",
+        "ak-15sk",
+        "tkb-22"
+      ],
+      "capacity": 30,
+      "modifiers": {},
+      "weight": 0.25,
+      "volume": 70,
+      "shopPrice": 650,
+      "source": "https://activematter.wiki.gg/wiki/AKM_magazine"
+    },
+    {
+      "id": "val-30rnds-magazine",
+      "name": "AS Val 30 rds. magazine",
+      "slot": "magazine",
+      "rarity": "Uncommon",
+      "weapons": [
+        "as-val",
+        "vss-vintorez"
+      ],
+      "capacity": 30,
+      "modifiers": {
+        "Aiming Speed": -2
+      },
+      "weight": 0.25,
+      "volume": 70,
+      "shopPrice": 1250,
+      "source": "https://activematter.wiki.gg/wiki/AS_Val_30_rds._magazine"
+    },
+    {
+      "id": "as-val-magazine",
+      "name": "AS Val magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "as-val",
+        "vss-vintorez"
+      ],
+      "capacity": 20,
+      "modifiers": {},
+      "weight": 0.18,
+      "volume": 50,
+      "shopPrice": 535,
+      "source": "https://activematter.wiki.gg/wiki/AS_Val_magazine"
+    },
+    {
+      "id": "ash-12-magazine",
+      "name": "ASh-12 magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "ash-12"
+      ],
+      "capacity": 20,
+      "modifiers": {},
+      "weight": 0.5,
+      "volume": 110,
+      "shopPrice": 900,
+      "source": "https://activematter.wiki.gg/wiki/ASh-12_magazine"
+    },
+    {
+      "id": "akm-47-bakelite-magazine",
+      "name": "Bakelite AKM magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "ak-103",
+        "ak-15sk",
+        "tkb-22"
+      ],
+      "capacity": 30,
+      "modifiers": {},
+      "weight": 0.235,
+      "volume": 70,
+      "shopPrice": 650,
+      "source": "https://activematter.wiki.gg/wiki/Bakelite_AKM_magazine"
+    },
+    {
+      "id": "fn-evolys-magazine",
+      "name": "EV-MG ammo pouch",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "fn-evolys"
+      ],
+      "capacity": 100,
+      "modifiers": {},
+      "weight": 0.4,
+      "volume": 320,
+      "shopPrice": 2250,
+      "source": "https://activematter.wiki.gg/wiki/EV-MG_ammo_pouch"
+    },
+    {
+      "id": "hk-g3a4-magazine",
+      "name": "G3A4 magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "hk-g3a4"
+      ],
+      "capacity": 20,
+      "modifiers": {},
+      "weight": 0.26,
+      "volume": 70,
+      "shopPrice": 580,
+      "source": "https://activematter.wiki.gg/wiki/G3A4_magazine"
+    },
+    {
+      "id": "gepard-magazine",
+      "name": "Gepard magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "gepard"
+      ],
+      "capacity": 40,
+      "modifiers": {},
+      "weight": 0.18,
+      "volume": 45,
+      "shopPrice": 535,
+      "source": "https://activematter.wiki.gg/wiki/Gepard_magazine"
+    },
+    {
+      "id": "kriss-vector-30-magazine",
+      "name": "KRISS Vector 30-Round Magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "kriss-vector"
+      ],
+      "capacity": 30,
+      "modifiers": {},
+      "weight": 0.2,
+      "volume": 40,
+      "shopPrice": 475
+    },
+    {
+      "id": "kriss-vector-magazine",
+      "name": "KRISS Vector Magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "kriss-vector"
+      ],
+      "capacity": 13,
+      "modifiers": {},
+      "weight": 0.08,
+      "volume": 23,
+      "shopPrice": 220
+    },
+    {
+      "id": "luger-magazine",
+      "name": "Luger P08 Magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "luger-p08"
+      ],
+      "capacity": 8,
+      "modifiers": {},
+      "weight": 0.1,
+      "volume": 15,
+      "shopPrice": null
+    },
+    {
+      "id": "m14-magazine",
+      "name": "M14 magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "m14",
+        "m39-emr"
+      ],
+      "capacity": 20,
+      "modifiers": {},
+      "weight": 0.25,
+      "volume": 70,
+      "shopPrice": 580,
+      "source": "https://activematter.wiki.gg/wiki/M14_magazine"
+    },
+    {
+      "id": "m1911-colt-10rnds-magazine",
+      "name": "M1911 10 rds. magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "m1911a1"
+      ],
+      "capacity": 10,
+      "modifiers": {},
+      "weight": 0.25,
+      "volume": 15,
+      "shopPrice": 390,
+      "source": "https://activematter.wiki.gg/wiki/M1911_10_rds._magazine"
+    },
+    {
+      "id": "m1911-colt-magazine",
+      "name": "M1911 magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "m1911a1"
+      ],
+      "capacity": 7,
+      "modifiers": {},
+      "weight": 0.16,
+      "volume": 12,
+      "shopPrice": 165,
+      "source": "https://activematter.wiki.gg/wiki/M1911_magazine"
+    },
+    {
+      "id": "thompson-m1928a1-drum-magazine",
+      "name": "M1928A1 drum",
+      "slot": "magazine",
+      "rarity": "Uncommon",
+      "weapons": [
+        "thompson-m1928a1"
+      ],
+      "capacity": 50,
+      "modifiers": {},
+      "weight": 1.1,
+      "volume": 60,
+      "shopPrice": 660,
+      "source": "https://activematter.wiki.gg/wiki/M1928A1_drum"
+    },
+    {
+      "id": "thompson-m1928a1-magazine",
+      "name": "M1928A1 magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "thompson-m1928a1"
+      ],
+      "capacity": 30,
+      "modifiers": {},
+      "weight": 0.2,
+      "volume": 40,
+      "shopPrice": 475,
+      "source": "https://activematter.wiki.gg/wiki/M1928A1_magazine"
+    },
+    {
+      "id": "m249-para-magazine",
+      "name": "M249 ammo pouch",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "m249-para"
+      ],
+      "capacity": 100,
+      "modifiers": {},
+      "weight": 0.15,
+      "volume": 220,
+      "shopPrice": 1715,
+      "source": "https://activematter.wiki.gg/wiki/M249_ammo_pouch"
+    },
+    {
+      "id": "m4-60rnds-drum",
+      "name": "M4 60-Round Drum",
+      "slot": "magazine",
+      "rarity": "Rare",
+      "weapons": [
+        "hk416a5",
+        "m16a4",
+        "m4",
+        "m4a1",
+        "scar-l"
+      ],
+      "capacity": 60,
+      "modifiers": {
+        "Aiming Speed": -9
+      },
+      "weight": 0.57,
+      "volume": 140,
+      "shopPrice": 2250
+    },
+    {
+      "id": "m4-magazine",
+      "name": "M4 magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "hk416a5",
+        "m16a4",
+        "m4",
+        "m4a1",
+        "scar-l"
+      ],
+      "capacity": 30,
+      "modifiers": {},
+      "weight": 0.25,
+      "volume": 70,
+      "shopPrice": 625,
+      "source": "https://activematter.wiki.gg/wiki/M4_magazine"
+    },
+    {
+      "id": "m4a1-magazine",
+      "name": "M4A1 magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "hk416a5",
+        "m16a4",
+        "m4",
+        "m4a1",
+        "scar-l"
+      ],
+      "capacity": 30,
+      "modifiers": {},
+      "weight": 0.25,
+      "volume": 70,
+      "shopPrice": 625,
+      "source": "https://activematter.wiki.gg/wiki/M4A1_magazine"
+    },
+    {
+      "id": "barrett-m82a1-magazine",
+      "name": "M82A1 magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "barrett-m82a1"
+      ],
+      "capacity": 10,
+      "modifiers": {},
+      "weight": 0.28,
+      "volume": 100,
+      "shopPrice": 730,
+      "source": "https://activematter.wiki.gg/wiki/M82A1_magazine"
+    },
+    {
+      "id": "beretta-m9-magazine",
+      "name": "M9 magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "m9",
+        "m9-tactical"
+      ],
+      "capacity": 15,
+      "modifiers": {},
+      "weight": 0.08,
+      "volume": 20,
+      "shopPrice": 220,
+      "source": "https://activematter.wiki.gg/wiki/M9_magazine"
+    },
+    {
+      "id": "mac11-magazine",
+      "name": "MAC-11 magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "mac-11"
+      ],
+      "capacity": 30,
+      "modifiers": {},
+      "weight": 0.095,
+      "volume": 35,
+      "shopPrice": 435,
+      "source": "https://activematter.wiki.gg/wiki/MAC-11_magazine"
+    },
+    {
+      "id": "m4-magpul-30rnds-magazine",
+      "name": "MP M4 30 rds. magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "hk416a5",
+        "m16a4",
+        "m4",
+        "m4a1",
+        "scar-l"
+      ],
+      "capacity": 30,
+      "modifiers": {
+        "Aiming Speed": 2
+      },
+      "weight": 0.14,
+      "volume": 70,
+      "shopPrice": 825,
+      "source": "https://activematter.wiki.gg/wiki/MP_M4_30_rds._magazine"
+    },
+    {
+      "id": "m4-magpul-40rnds-magazine",
+      "name": "MP M4 40 rds. magazine",
+      "slot": "magazine",
+      "rarity": "Uncommon",
+      "weapons": [
+        "hk416a5",
+        "m16a4",
+        "m4",
+        "m4a1",
+        "scar-l"
+      ],
+      "capacity": 40,
+      "modifiers": {
+        "Aiming Speed": -4
+      },
+      "weight": 0.19,
+      "volume": 90,
+      "shopPrice": 1165,
+      "source": "https://activematter.wiki.gg/wiki/MP_M4_40_rds._magazine"
+    },
+    {
+      "id": "mp40-magazine",
+      "name": "MP-40 magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "mp40"
+      ],
+      "capacity": 32,
+      "modifiers": {},
+      "weight": 0.25,
+      "volume": 37,
+      "shopPrice": 470,
+      "source": "https://activematter.wiki.gg/wiki/MP-40_magazine"
+    },
+    {
+      "id": "mp-443-magazine",
+      "name": "MP-443 Grach magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "mp-443"
+      ],
+      "capacity": 18,
+      "modifiers": {},
+      "weight": 0.1,
+      "volume": 23,
+      "shopPrice": 235,
+      "source": "https://activematter.wiki.gg/wiki/MP-443_Grach_magazine"
+    },
+    {
+      "id": "hk-mp5n-magazine",
+      "name": "MP5 magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "mp5"
+      ],
+      "capacity": 30,
+      "modifiers": {},
+      "weight": 0.17,
+      "volume": 35,
+      "shopPrice": 435,
+      "source": "https://activematter.wiki.gg/wiki/MP5_magazine"
+    },
+    {
+      "id": "makarov-magazine",
+      "name": "Makarov Pistol magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "makarov-pm"
+      ],
+      "capacity": 8,
+      "modifiers": {},
+      "weight": 0.08,
+      "volume": 15,
+      "shopPrice": 160,
+      "source": "https://activematter.wiki.gg/wiki/Makarov_Pistol_magazine"
+    },
+    {
+      "id": "origin-12-magazine-10",
+      "name": "Origin 12 10 rds. magazine",
+      "slot": "magazine",
+      "rarity": "Rare",
+      "weapons": [
+        "origin-12"
+      ],
+      "capacity": 10,
+      "modifiers": {
+        "Aiming Speed": -5
+      },
+      "weight": 0.6,
+      "volume": 40,
+      "shopPrice": 1800,
+      "source": "https://activematter.wiki.gg/wiki/Origin_12_10_rds._magazine"
+    },
+    {
+      "id": "origin-12-magazine",
+      "name": "Origin 12 5 rds. magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "origin-12"
+      ],
+      "capacity": 5,
+      "modifiers": {},
+      "weight": 0.4,
+      "volume": 25,
+      "shopPrice": 325,
+      "source": "https://activematter.wiki.gg/wiki/Origin_12_5_rds._magazine"
+    },
+    {
+      "id": "origin-12-magazine-8",
+      "name": "Origin 12 8 rds. magazine",
+      "slot": "magazine",
+      "rarity": "Uncommon",
+      "weapons": [
+        "origin-12"
+      ],
+      "capacity": 8,
+      "modifiers": {
+        "Aiming Speed": -3
+      },
+      "weight": 0.5,
+      "volume": 34,
+      "shopPrice": 1200,
+      "source": "https://activematter.wiki.gg/wiki/Origin_12_8_rds._magazine"
+    },
+    {
+      "id": "glock-17-magazine",
+      "name": "P17-V magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "glock-17",
+        "p17-v"
+      ],
+      "capacity": 17,
+      "modifiers": {},
+      "weight": 0.078,
+      "volume": 22,
+      "shopPrice": 240,
+      "source": "https://activematter.wiki.gg/wiki/P17-V_magazine"
+    },
+    {
+      "id": "pk-magazine",
+      "name": "PKM ammo box",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "pkm"
+      ],
+      "capacity": 100,
+      "modifiers": {},
+      "weight": 1.6,
+      "volume": 360,
+      "shopPrice": 2300,
+      "source": "https://activematter.wiki.gg/wiki/PKM_ammo_box"
+    },
+    {
+      "id": "pm-63-rak-magazine",
+      "name": "PM-63 magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "pm-63-rak"
+      ],
+      "capacity": 25,
+      "modifiers": {},
+      "weight": 0.17,
+      "volume": 30,
+      "shopPrice": 375,
+      "source": "https://activematter.wiki.gg/wiki/PM-63_magazine"
+    },
+    {
+      "id": "pp-19-vityaz-magazine",
+      "name": "PP-19-01 magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "pp-19-vityaz"
+      ],
+      "capacity": 30,
+      "modifiers": {},
+      "weight": 0.17,
+      "volume": 35,
+      "shopPrice": 435,
+      "source": "https://activematter.wiki.gg/wiki/PP-19-01_magazine"
+    },
+    {
+      "id": "pp-2000-20-magazine",
+      "name": "PP-2000 20 rds. magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "pp-2000"
+      ],
+      "capacity": 20,
+      "modifiers": {
+        "Aiming Speed": 5
+      },
+      "weight": 0.12,
+      "volume": 25,
+      "shopPrice": 370,
+      "source": "https://activematter.wiki.gg/wiki/PP-2000_20_rds._magazine"
+    },
+    {
+      "id": "pp-2000-30-magazine",
+      "name": "PP-2000 30 rds. magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "pp-2000"
+      ],
+      "capacity": 30,
+      "modifiers": {},
+      "weight": 0.15,
+      "volume": 35,
+      "shopPrice": 450,
+      "source": "https://activematter.wiki.gg/wiki/PP-2000_30_rds._magazine"
+    },
+    {
+      "id": "pp-2000-44-magazine",
+      "name": "PP-2000 44 rds. magazine",
+      "slot": "magazine",
+      "rarity": "Uncommon",
+      "weapons": [
+        "pp-2000"
+      ],
+      "capacity": 44,
+      "modifiers": {
+        "Aiming Speed": -5
+      },
+      "weight": 0.19,
+      "volume": 49,
+      "shopPrice": 575,
+      "source": "https://activematter.wiki.gg/wiki/PP-2000_44_rds._magazine"
+    },
+    {
+      "id": "pp-91-kedr-20-magazine",
+      "name": "PP-91 20 rds. magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "pp-91-kedr"
+      ],
+      "capacity": 20,
+      "modifiers": {},
+      "weight": 0.17,
+      "volume": 25,
+      "shopPrice": 340,
+      "source": "https://activematter.wiki.gg/wiki/PP-91_20_rds._magazine"
+    },
+    {
+      "id": "pp-91-kedr-30-magazine",
+      "name": "PP-91 30 rds. magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "pp-91-kedr"
+      ],
+      "capacity": 30,
+      "modifiers": {},
+      "weight": 0.2,
+      "volume": 35,
+      "shopPrice": 425,
+      "source": "https://activematter.wiki.gg/wiki/PP-91_30_rds._magazine"
+    },
+    {
+      "id": "ppsh-41-drum-magazine",
+      "name": "PPSh-41 drum",
+      "slot": "magazine",
+      "rarity": "Rare",
+      "weapons": [
+        "ppsh-41"
+      ],
+      "capacity": 71,
+      "modifiers": {},
+      "weight": 1.05,
+      "volume": 81,
+      "shopPrice": 1750,
+      "source": "https://activematter.wiki.gg/wiki/PPSh-41_drum"
+    },
+    {
+      "id": "ppsh-41-magazine",
+      "name": "PPSh-41 magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "ppsh-41"
+      ],
+      "capacity": 35,
+      "modifiers": {},
+      "weight": 0.23,
+      "volume": 40,
+      "shopPrice": 500,
+      "source": "https://activematter.wiki.gg/wiki/PPSh-41_magazine"
+    },
+    {
+      "id": "rpd-magazine",
+      "name": "RPD Magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "rpd"
+      ],
+      "capacity": 100,
+      "modifiers": {},
+      "weight": 0.235,
+      "volume": 220,
+      "shopPrice": null
+    },
+    {
+      "id": "rpk-74-magazine",
+      "name": "RPK-74 magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "aek-971",
+        "ak-12",
+        "ak-74",
+        "aks-74u",
+        "an-94-abakan",
+        "rpk-74"
+      ],
+      "capacity": 45,
+      "modifiers": {
+        "Aiming Speed": -7
+      },
+      "weight": 0.28,
+      "volume": 100,
+      "shopPrice": 1200,
+      "source": "https://activematter.wiki.gg/wiki/RPK-74_magazine"
+    },
+    {
+      "id": "rpl-20-magazine",
+      "name": "RPL-20 ammo pouch",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "rpl-20"
+      ],
+      "capacity": 100,
+      "modifiers": {},
+      "weight": 0.2,
+      "volume": 220,
+      "shopPrice": 1650,
+      "source": "https://activematter.wiki.gg/wiki/RPL-20_ammo_pouch"
+    },
+    {
+      "id": "ak-74-rust-magazine",
+      "name": "Rusty AK-74 magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "aek-971",
+        "ak-12",
+        "ak-74",
+        "aks-74u",
+        "an-94-abakan",
+        "rpk-74"
+      ],
+      "capacity": 30,
+      "modifiers": {},
+      "weight": 0.235,
+      "volume": 70,
+      "shopPrice": 625,
+      "source": "https://activematter.wiki.gg/wiki/Rusty_AK-74_magazine"
+    },
+    {
+      "id": "akm-47-rust-magazine",
+      "name": "Rusty AKM magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "ak-103",
+        "ak-15sk",
+        "tkb-22"
+      ],
+      "capacity": 30,
+      "modifiers": {},
+      "weight": 0.25,
+      "volume": 70,
+      "shopPrice": 650,
+      "source": "https://activematter.wiki.gg/wiki/Rusty_AKM_magazine"
+    },
+    {
+      "id": "m4-rust-magazine",
+      "name": "Rusty M4 magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "hk416a5",
+        "m16a4",
+        "m4",
+        "m4a1",
+        "scar-l"
+      ],
+      "capacity": 30,
+      "modifiers": {},
+      "weight": 0.25,
+      "volume": 70,
+      "shopPrice": 625,
+      "source": "https://activematter.wiki.gg/wiki/Rusty_M4_magazine"
+    },
+    {
+      "id": "fn-scar-h-magazine",
+      "name": "SCAR-H magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "scar-h"
+      ],
+      "capacity": 20,
+      "modifiers": {},
+      "weight": 0.25,
+      "volume": 70,
+      "shopPrice": 600,
+      "source": "https://activematter.wiki.gg/wiki/SCAR-H_magazine"
+    },
+    {
+      "id": "fn-scar-magazine",
+      "name": "SCAR-L magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "hk416a5",
+        "m16a4",
+        "m4",
+        "m4a1",
+        "scar-l"
+      ],
+      "capacity": 30,
+      "modifiers": {},
+      "weight": 0.12,
+      "volume": 70,
+      "shopPrice": 625,
+      "source": "https://activematter.wiki.gg/wiki/SCAR-L_magazine"
+    },
+    {
+      "id": "steyr-aug-a1-magazine",
+      "name": "STG77 magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "stg77-a1"
+      ],
+      "capacity": 30,
+      "modifiers": {},
+      "weight": 0.15,
+      "volume": 70,
+      "shopPrice": 625,
+      "source": "https://activematter.wiki.gg/wiki/STG77_magazine"
+    },
+    {
+      "id": "sv98-magazine",
+      "name": "SV-98 magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "sv-98"
+      ],
+      "capacity": 10,
+      "modifiers": {},
+      "weight": 0.12,
+      "volume": 40,
+      "shopPrice": 390,
+      "source": "https://activematter.wiki.gg/wiki/SV-98_magazine"
+    },
+    {
+      "id": "svd-magazine",
+      "name": "SVD magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "svd",
+        "svdm"
+      ],
+      "capacity": 10,
+      "modifiers": {},
+      "weight": 0.12,
+      "volume": 40,
+      "shopPrice": 400,
+      "source": "https://activematter.wiki.gg/wiki/SVD_magazine"
+    },
+    {
+      "id": "scorpion-evo-3-magazine",
+      "name": "Scorpion EVO 3 magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "scorpion-evo-3"
+      ],
+      "capacity": 30,
+      "modifiers": {},
+      "weight": 0.13,
+      "volume": 35,
+      "shopPrice": 435,
+      "source": "https://activematter.wiki.gg/wiki/Scorpion_EVO_3_magazine"
+    },
+    {
+      "id": "stechkin-magazine",
+      "name": "Stechkin Pistol magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "stechkin-aps"
+      ],
+      "capacity": 20,
+      "modifiers": {},
+      "weight": 0.045,
+      "volume": 25,
+      "shopPrice": 240,
+      "source": "https://activematter.wiki.gg/wiki/Stechkin_Pistol_magazine"
+    },
+    {
+      "id": "tt-magazine",
+      "name": "TT Pistol magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "tt-33"
+      ],
+      "capacity": 8,
+      "modifiers": {},
+      "weight": 0.08,
+      "volume": 15,
+      "shopPrice": 170,
+      "source": "https://activematter.wiki.gg/wiki/TT_Pistol_magazine"
+    },
+    {
+      "id": "hk-ump-45-magazine",
+      "name": "UMP magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "ump45"
+      ],
+      "capacity": 25,
+      "modifiers": {},
+      "weight": 0.17,
+      "volume": 35,
+      "shopPrice": 430,
+      "source": "https://activematter.wiki.gg/wiki/UMP_magazine"
+    },
+    {
+      "id": "uzi-magazine",
+      "name": "UZI Magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "uzi"
+      ],
+      "capacity": 25,
+      "modifiers": {},
+      "weight": 0.17,
+      "volume": 30,
+      "shopPrice": null
+    },
+    {
+      "id": "vssk-vyhlop-magazine",
+      "name": "VSSK Vykhlop magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "vssk-vyhlop"
+      ],
+      "capacity": 5,
+      "modifiers": {},
+      "weight": 0.45,
+      "volume": 45,
+      "shopPrice": 490,
+      "source": "https://activematter.wiki.gg/wiki/VSSK_Vykhlop_magazine"
+    },
+    {
+      "id": "vepr-10rd-magazine",
+      "name": "Vepr magazine",
+      "slot": "magazine",
+      "rarity": "Common",
+      "weapons": [
+        "ak-103",
+        "ak-15sk",
+        "tkb-22"
+      ],
+      "capacity": 10,
+      "modifiers": {
+        "Aiming Speed": 6
+      },
+      "weight": 0.12,
+      "volume": 30,
+      "shopPrice": 350,
+      "source": "https://activematter.wiki.gg/wiki/Vepr_magazine"
+    },
+    {
+      "id": "glock-45acp-drum-magazine",
+      "name": "XV ACP 40 rds. drum",
+      "slot": "magazine",
+      "rarity": "Uncommon",
+      "weapons": [
+        "kriss-vector"
+      ],
+      "capacity": 40,
+      "modifiers": {},
+      "weight": 0.85,
+      "volume": 50,
+      "shopPrice": 600,
+      "source": "https://activematter.wiki.gg/wiki/XV_ACP_40_rds._drum"
+    },
+    {
+      "id": "cal-9-18-silencer",
+      "name": "9x18 Suppressor",
+      "slot": "muzzle",
+      "rarity": "Common",
+      "weapons": [
+        "makarov-pm",
+        "pp-91-kedr"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -2,
+        "Aiming Speed": -9,
+        "Shot Loudness": -60
+      },
+      "weight": 0.29,
+      "volume": 40,
+      "shopPrice": 750,
+      "source": "https://activematter.wiki.gg/wiki/9x18_Suppressor"
+    },
+    {
+      "id": "ash-12-compensator",
+      "name": "ASh-12 Compensator",
+      "slot": "muzzle",
+      "rarity": "Uncommon",
+      "weapons": [
+        "ash-12"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Shot Loudness": -10,
+        "Aiming Speed": -7,
+        "Recoil": -7
+      },
+      "weight": 0.7,
+      "volume": 50,
+      "shopPrice": 5400,
+      "source": "https://activematter.wiki.gg/wiki/ASh-12_Compensator"
+    },
+    {
+      "id": "ash-12-suppressor-long",
+      "name": "ASh-12 Long Suppressor",
+      "slot": "muzzle",
+      "rarity": "Uncommon",
+      "weapons": [
+        "ash-12"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -9,
+        "Aiming Speed": -11,
+        "Shot Loudness": -60
+      },
+      "weight": 0.8,
+      "volume": 155,
+      "shopPrice": 13000
+    },
+    {
+      "id": "ash-12-suppressor",
+      "name": "ASh-12 Suppressor",
+      "slot": "muzzle",
+      "rarity": "Uncommon",
+      "weapons": [
+        "ash-12"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -7,
+        "Aiming Speed": -7,
+        "Shot Loudness": -30
+      },
+      "weight": 0.7,
+      "volume": 50,
+      "shopPrice": 10800,
+      "source": "https://activematter.wiki.gg/wiki/ASh-12_Suppressor"
+    },
+    {
+      "id": "alfa-arms-dtk-compensator",
+      "name": "Alfa Muzzle Brake",
+      "slot": "muzzle",
+      "rarity": "Common",
+      "weapons": [
+        "hk416a5",
+        "m16a4",
+        "m4",
+        "m4a1",
+        "scar-l"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -3
+      },
+      "weight": 0.115,
+      "volume": 25,
+      "shopPrice": 1590,
+      "source": "https://activematter.wiki.gg/wiki/Alfa_Muzzle_Brake"
+    },
+    {
+      "id": "banish-45-ext-suppressor",
+      "name": "BN45 Suppressor",
+      "slot": "muzzle",
+      "rarity": "Common",
+      "weapons": [
+        "kriss-vector",
+        "m1911a1",
+        "ump45"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -2,
+        "Aiming Speed": -9,
+        "Shot Loudness": -60
+      },
+      "weight": 0.32,
+      "volume": 40,
+      "shopPrice": 1300,
+      "source": "https://activematter.wiki.gg/wiki/BN45_Suppressor"
+    },
+    {
+      "id": "banish-45-suppressor",
+      "name": "BN9 Suppressor",
+      "slot": "muzzle",
+      "rarity": "Common",
+      "weapons": [
+        "m9-tactical",
+        "mp5",
+        "scorpion-evo-3"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -2,
+        "Aiming Speed": -9,
+        "Shot Loudness": -60
+      },
+      "weight": 0.26,
+      "volume": 40,
+      "shopPrice": 1100,
+      "source": "https://activematter.wiki.gg/wiki/BN9_Suppressor"
+    },
+    {
+      "id": "zenith-compensator",
+      "name": "DTK-1 Muzzle Brake",
+      "slot": "muzzle",
+      "rarity": "Uncommon",
+      "weapons": [
+        "ak-103",
+        "ak-15sk",
+        "ak-74"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -4
+      },
+      "weight": 0.2,
+      "volume": 25,
+      "shopPrice": 6600,
+      "source": "https://activematter.wiki.gg/wiki/DTK-1_Muzzle_Brake"
+    },
+    {
+      "id": "alfa-arms-blackout-suppressor",
+      "name": "Eclipse Suppressor",
+      "slot": "muzzle",
+      "rarity": "Uncommon",
+      "weapons": [
+        "hk416a5",
+        "m16a4",
+        "m4",
+        "m4a1",
+        "scar-l"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -2,
+        "Aiming Speed": -9,
+        "Shot Loudness": -60
+      },
+      "weight": 0.41,
+      "volume": 40,
+      "shopPrice": 12300,
+      "source": "https://activematter.wiki.gg/wiki/Eclipse_Suppressor"
+    },
+    {
+      "id": "gepard-silencer",
+      "name": "Gepard SMG Suppressor",
+      "slot": "muzzle",
+      "rarity": "Common",
+      "weapons": [
+        "gepard"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -2,
+        "Aiming Speed": -9,
+        "Shot Loudness": -60
+      },
+      "weight": 0.4,
+      "volume": 40,
+      "shopPrice": 930,
+      "source": "https://activematter.wiki.gg/wiki/Gepard_SMG_Suppressor"
+    },
+    {
+      "id": "hexagon-silencer",
+      "name": "HX6 Suppressor",
+      "slot": "muzzle",
+      "rarity": "Uncommon",
+      "weapons": [
+        "ak-103",
+        "ak-15sk"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -2,
+        "Aiming Speed": -9,
+        "Shot Loudness": -60
+      },
+      "weight": 0.58,
+      "volume": 40,
+      "shopPrice": 3300,
+      "source": "https://activematter.wiki.gg/wiki/HX6_Suppressor"
+    },
+    {
+      "id": "hexagon-silencer-ak12-adapter",
+      "name": "HX6 Suppressor (AK-12 adapter)",
+      "slot": "muzzle",
+      "rarity": "Uncommon",
+      "weapons": [
+        "ak-103",
+        "ak-12",
+        "ak-15sk"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -2,
+        "Aiming Speed": -9,
+        "Shot Loudness": -60
+      },
+      "weight": 0.6,
+      "volume": 40,
+      "shopPrice": 3550,
+      "source": "https://activematter.wiki.gg/wiki/HX6_Suppressor_(AK-12_adapter)"
+    },
+    {
+      "id": "m11-severe-duty-compensator",
+      "name": "M11 7.62x51 Muzzle Brake",
+      "slot": "muzzle",
+      "rarity": "Rare",
+      "weapons": [
+        "m110a1",
+        "scar-h"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -6
+      },
+      "weight": 0.16,
+      "volume": 25,
+      "shopPrice": 17500,
+      "source": "https://activematter.wiki.gg/wiki/M11_7.62x51_Muzzle_Brake"
+    },
+    {
+      "id": "bnt-m14-suppressor",
+      "name": "M14 Suppressor",
+      "slot": "muzzle",
+      "rarity": "Uncommon",
+      "weapons": [
+        "m14",
+        "m39-emr"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -2,
+        "Aiming Speed": -9,
+        "Shot Loudness": -60
+      },
+      "weight": 0.34,
+      "volume": 40,
+      "shopPrice": 9800,
+      "source": "https://activematter.wiki.gg/wiki/M14_Suppressor"
+    },
+    {
+      "id": "fn-m249-muzzle-compensator",
+      "name": "M249 Muzzle Brake",
+      "slot": "muzzle",
+      "rarity": "Uncommon",
+      "weapons": [
+        "m249-para"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -4
+      },
+      "weight": 0.065,
+      "volume": 25,
+      "shopPrice": 3960,
+      "source": "https://activematter.wiki.gg/wiki/M249_Muzzle_Brake"
+    },
+    {
+      "id": "gls-mac-suppressor",
+      "name": "MAC-11 Suppressor",
+      "slot": "muzzle",
+      "rarity": "Common",
+      "weapons": [
+        "mac-11"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -2,
+        "Aiming Speed": -9,
+        "Shot Loudness": -60
+      },
+      "weight": 0.34,
+      "volume": 40,
+      "shopPrice": 1200,
+      "source": "https://activematter.wiki.gg/wiki/MAC-11_Suppressor"
+    },
+    {
+      "id": "socom556-suppressor",
+      "name": "Mini 556 Suppressor",
+      "slot": "muzzle",
+      "rarity": "Uncommon",
+      "weapons": [
+        "hk416a5",
+        "m16a4",
+        "m4",
+        "m4a1",
+        "scar-l"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -1,
+        "Aiming Speed": -7,
+        "Shot Loudness": -50
+      },
+      "weight": 0.49,
+      "volume": 40,
+      "shopPrice": 4100,
+      "source": "https://activematter.wiki.gg/wiki/Mini_556_Suppressor"
+    },
+    {
+      "id": "rotor-sv98-compensator",
+      "name": "Muzzle Brake for SV-98",
+      "slot": "muzzle",
+      "rarity": "Rare",
+      "weapons": [
+        "sv-98"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -6
+      },
+      "weight": 0.16,
+      "volume": 25,
+      "shopPrice": 4700,
+      "source": "https://activematter.wiki.gg/wiki/Muzzle_Brake_for_SV-98"
+    },
+    {
+      "id": "pbs4-silencer",
+      "name": "PBS-4 Suppressor",
+      "slot": "muzzle",
+      "rarity": "Common",
+      "weapons": [
+        "aks-74u"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -2,
+        "Aiming Speed": -9,
+        "Shot Loudness": -60
+      },
+      "weight": 0.61,
+      "volume": 40,
+      "shopPrice": 1480,
+      "source": "https://activematter.wiki.gg/wiki/PBS-4_Suppressor"
+    },
+    {
+      "id": "pp19-vityaz-silencer",
+      "name": "PP-19-01 Suppressor",
+      "slot": "muzzle",
+      "rarity": "Common",
+      "weapons": [
+        "pp-19-vityaz"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -2,
+        "Aiming Speed": -9,
+        "Shot Loudness": -60
+      },
+      "weight": 0.53,
+      "volume": 40,
+      "shopPrice": 900,
+      "source": "https://activematter.wiki.gg/wiki/PP-19-01_Suppressor"
+    },
+    {
+      "id": "pp-2000-silencer",
+      "name": "PP-2000 Suppressor",
+      "slot": "muzzle",
+      "rarity": "Common",
+      "weapons": [
+        "pp-2000"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -2,
+        "Aiming Speed": -9,
+        "Shot Loudness": -60
+      },
+      "weight": 0.4,
+      "volume": 40,
+      "shopPrice": 1450,
+      "source": "https://activematter.wiki.gg/wiki/PP-2000_Suppressor"
+    },
+    {
+      "id": "sar2-compensator",
+      "name": "SAR2 7.62x51 Muzzle Brake",
+      "slot": "muzzle",
+      "rarity": "Uncommon",
+      "weapons": [
+        "m110a1",
+        "scar-h"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -4
+      },
+      "weight": 0.12,
+      "volume": 25,
+      "shopPrice": 7800,
+      "source": "https://activematter.wiki.gg/wiki/SAR2_7.62x51_Muzzle_Brake"
+    },
+    {
+      "id": "surefire-sf3p-flash-hider",
+      "name": "SF3P 5.56 Flash Hider",
+      "slot": "muzzle",
+      "rarity": "Common",
+      "weapons": [
+        "hk416a5",
+        "m16a4",
+        "m4",
+        "m4a1",
+        "scar-l"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -2
+      },
+      "weight": 0.11,
+      "volume": 25,
+      "shopPrice": 1275,
+      "source": "https://activematter.wiki.gg/wiki/SF3P_5.56_Flash_Hider"
+    },
+    {
+      "id": "sv98-sound-suppressor",
+      "name": "SV-98 Suppressor",
+      "slot": "muzzle",
+      "rarity": "Uncommon",
+      "weapons": [
+        "sv-98"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -2,
+        "Aiming Speed": -9,
+        "Shot Loudness": -60
+      },
+      "weight": 0.3,
+      "volume": 40,
+      "shopPrice": 5000,
+      "source": "https://activematter.wiki.gg/wiki/SV-98_Suppressor"
+    },
+    {
+      "id": "cz-scorpion-evo-ultra-compensator",
+      "name": "Scorpion EVO Muzzle Brake",
+      "slot": "muzzle",
+      "rarity": "Common",
+      "weapons": [
+        "scorpion-evo-3"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -4
+      },
+      "weight": 0.043,
+      "volume": 25,
+      "shopPrice": 1520,
+      "source": "https://activematter.wiki.gg/wiki/Scorpion_EVO_Muzzle_Brake"
+    },
+    {
+      "id": "rotor-svdm-suppressor",
+      "name": "Suppressor for SVDM",
+      "slot": "muzzle",
+      "rarity": "Uncommon",
+      "weapons": [
+        "svdm"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -3,
+        "Aiming Speed": -9,
+        "Shot Loudness": -60
+      },
+      "weight": 0.62,
+      "volume": 40,
+      "shopPrice": 13600,
+      "source": "https://activematter.wiki.gg/wiki/Suppressor_for_SVDM"
+    },
+    {
+      "id": "bos-t12-suppressor",
+      "name": "T12 Suppressor",
+      "slot": "muzzle",
+      "rarity": "Uncommon",
+      "weapons": [
+        "rpk-74"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -2,
+        "Aiming Speed": -9,
+        "Shot Loudness": -60
+      },
+      "weight": 0.46,
+      "volume": 40,
+      "shopPrice": 3440,
+      "source": "https://activematter.wiki.gg/wiki/T12_Suppressor"
+    },
+    {
+      "id": "thunder-beast-arms-223cb-compensator",
+      "name": "TB223CB 5.56 Muzzle Brake",
+      "slot": "muzzle",
+      "rarity": "Uncommon",
+      "weapons": [
+        "hk416a5",
+        "m16a4",
+        "m4",
+        "m4a1",
+        "scar-l"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -4
+      },
+      "weight": 0.11,
+      "volume": 25,
+      "shopPrice": 7400,
+      "source": "https://activematter.wiki.gg/wiki/TB223CB_5.56_Muzzle_Brake"
+    },
+    {
+      "id": "tgpa-suppressor",
+      "name": "TGP-A Suppressor",
+      "slot": "muzzle",
+      "rarity": "Common",
+      "weapons": [
+        "ak-74"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -2,
+        "Aiming Speed": -9,
+        "Shot Loudness": -60
+      },
+      "weight": 0.7,
+      "volume": 40,
+      "shopPrice": 1520,
+      "source": "https://activematter.wiki.gg/wiki/TGP-A_Suppressor"
+    },
+    {
+      "id": "taktika-tula-turbo-flash-hider",
+      "name": "Turbo 9 mm. Flash Hider",
+      "slot": "muzzle",
+      "rarity": "Common",
+      "weapons": [
+        "pp-19-vityaz"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -2
+      },
+      "weight": 0.065,
+      "volume": 25,
+      "shopPrice": 550,
+      "source": "https://activematter.wiki.gg/wiki/Turbo_9_mm._Flash_Hider"
+    },
+    {
+      "id": "vr-dtl-flash-hider",
+      "name": "VR-DTL 5.45 Flash Hider",
+      "slot": "muzzle",
+      "rarity": "Common",
+      "weapons": [
+        "ak-12"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -2
+      },
+      "weight": 0.2,
+      "volume": 25,
+      "shopPrice": 1380,
+      "source": "https://activematter.wiki.gg/wiki/VR-DTL_5.45_Flash_Hider"
+    },
+    {
+      "id": "vector-vr-13-compensator",
+      "name": "VR13 5.45 Muzzle Brake",
+      "slot": "muzzle",
+      "rarity": "Uncommon",
+      "weapons": [
+        "ak-12"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -4
+      },
+      "weight": 0.12,
+      "volume": 25,
+      "shopPrice": 8400,
+      "source": "https://activematter.wiki.gg/wiki/VR13_5.45_Muzzle_Brake"
+    },
+    {
+      "id": "vs-09-compensator",
+      "name": "VS-09 9 mm. Muzzle Brake",
+      "slot": "muzzle",
+      "rarity": "Common",
+      "weapons": [
+        "pp-19-vityaz"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -4
+      },
+      "weight": 0.15,
+      "volume": 25,
+      "shopPrice": 980,
+      "source": "https://activematter.wiki.gg/wiki/VS-09_9_mm._Muzzle_Brake"
+    },
+    {
+      "id": "vssk-vyhlop-suppressor",
+      "name": "VSSK Vykhlop Suppressor",
+      "slot": "muzzle",
+      "rarity": "Uncommon",
+      "weapons": [
+        "vssk-vyhlop"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -9,
+        "Aiming Speed": -11,
+        "Shot Loudness": -60
+      },
+      "weight": 0.9,
+      "volume": 180,
+      "shopPrice": 2000,
+      "source": "https://activematter.wiki.gg/wiki/VSSK_Vykhlop_Suppressor"
+    },
+    {
+      "id": "volk-flash-hider-545",
+      "name": "Warg-2 5.45 Flash Hider",
+      "slot": "muzzle",
+      "rarity": "Common",
+      "weapons": [
+        "ak-103",
+        "ak-15sk",
+        "ak-74",
+        "aks-74u"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -2
+      },
+      "weight": 0.4,
+      "volume": 25,
+      "shopPrice": 1150,
+      "source": "https://activematter.wiki.gg/wiki/Warg-2_5.45_Flash_Hider"
+    },
+    {
+      "id": "volk-flash-hider-762",
+      "name": "Warg-3 7.62x39 Flash Hider",
+      "slot": "muzzle",
+      "rarity": "Common",
+      "weapons": [
+        "ak-103",
+        "ak-15sk"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -2
+      },
+      "weight": 0.4,
+      "volume": 25,
+      "shopPrice": 1175,
+      "source": "https://activematter.wiki.gg/wiki/Warg-3_7.62x39_Flash_Hider"
+    },
+    {
+      "id": "scope-1p63",
+      "name": "1P63 Collimator",
+      "slot": "scope",
+      "rarity": "Common",
+      "weapons": [
+        "aek-971",
+        "ak-103",
+        "ak-74",
+        "an-94-abakan",
+        "as-val",
+        "rpk-74",
+        "sks",
+        "svd",
+        "vss-vintorez"
+      ],
+      "capacity": null,
+      "modifiers": {},
+      "weight": 0.6,
+      "volume": 40,
+      "shopPrice": 900,
+      "source": "https://activematter.wiki.gg/wiki/1P63_Collimator"
+    },
+    {
+      "id": "scope-1p69",
+      "name": "1P69 Scope 1-10x magn.",
+      "slot": "scope",
+      "rarity": "Uncommon",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "barrett-m82a1",
+        "dp-12",
+        "fn-evolys",
+        "hk-g3a4",
+        "hk416a5",
+        "m110a1",
+        "m16a4",
+        "m24",
+        "m249-para",
+        "m39-emr",
+        "origin-12",
+        "rpl-20",
+        "scar-h",
+        "scar-l",
+        "sv-98",
+        "svdm",
+        "vssk-vyhlop"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": -15
+      },
+      "weight": 1.35,
+      "volume": 65,
+      "shopPrice": 10400,
+      "source": "https://activematter.wiki.gg/wiki/1P69_Scope_1-10x_magn."
+    },
+    {
+      "id": "scope-1p87",
+      "name": "1P87 Collimator",
+      "slot": "scope",
+      "rarity": "Common",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "barrett-m82a1",
+        "dp-12",
+        "fn-evolys",
+        "hk-g3a4",
+        "hk416a5",
+        "kriss-vector",
+        "m110a1",
+        "m16a4",
+        "m24",
+        "m249-para",
+        "m39-emr",
+        "m4a1",
+        "mac-11",
+        "origin-12",
+        "pp-19-vityaz",
+        "pp-2000",
+        "rpl-20",
+        "rsh-12",
+        "scar-h",
+        "scar-l",
+        "scorpion-evo-3",
+        "sv-98",
+        "svdm",
+        "ump45",
+        "vssk-vyhlop"
+      ],
+      "capacity": null,
+      "modifiers": {},
+      "weight": 0.3,
+      "volume": 40,
+      "shopPrice": 1060,
+      "source": "https://activematter.wiki.gg/wiki/1P87_Collimator"
+    },
+    {
+      "id": "scope-acog-ta11",
+      "name": "ACOG TA11 Scope",
+      "slot": "scope",
+      "rarity": "Common",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "barrett-m82a1",
+        "dp-12",
+        "fn-evolys",
+        "hk-g3a4",
+        "hk416a5",
+        "kriss-vector",
+        "m110a1",
+        "m16a4",
+        "m24",
+        "m249-para",
+        "m39-emr",
+        "m4a1",
+        "mac-11",
+        "origin-12",
+        "pp-19-vityaz",
+        "pp-2000",
+        "rpl-20",
+        "rsh-12",
+        "scar-h",
+        "scar-l",
+        "scorpion-evo-3",
+        "sv-98",
+        "svdm",
+        "ump45",
+        "vssk-vyhlop"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": -10
+      },
+      "weight": 0.5,
+      "volume": 50,
+      "shopPrice": 3200
+    },
+    {
+      "id": "scope-aimpoint-micro-t2",
+      "name": "AP Micro T2 Collimator",
+      "slot": "scope",
+      "rarity": "Common",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "barrett-m82a1",
+        "dp-12",
+        "fn-evolys",
+        "hk-g3a4",
+        "hk416a5",
+        "kriss-vector",
+        "m110a1",
+        "m16a4",
+        "m24",
+        "m249-para",
+        "m39-emr",
+        "m4a1",
+        "mac-11",
+        "origin-12",
+        "pp-19-vityaz",
+        "pp-2000",
+        "rpl-20",
+        "rsh-12",
+        "scar-h",
+        "scar-l",
+        "scorpion-evo-3",
+        "sv-98",
+        "svdm",
+        "ump45",
+        "vssk-vyhlop"
+      ],
+      "capacity": null,
+      "modifiers": {},
+      "weight": 0.13,
+      "volume": 25,
+      "shopPrice": 840,
+      "source": "https://activematter.wiki.gg/wiki/AP_Micro_T2_Collimator"
+    },
+    {
+      "id": "scope-aimpoint-pro",
+      "name": "AP Pro Collimator",
+      "slot": "scope",
+      "rarity": "Common",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "barrett-m82a1",
+        "dp-12",
+        "fn-evolys",
+        "hk-g3a4",
+        "hk416a5",
+        "kriss-vector",
+        "m110a1",
+        "m16a4",
+        "m24",
+        "m249-para",
+        "m39-emr",
+        "m4a1",
+        "mac-11",
+        "origin-12",
+        "pp-19-vityaz",
+        "pp-2000",
+        "rpl-20",
+        "rsh-12",
+        "scar-h",
+        "scar-l",
+        "scorpion-evo-3",
+        "sv-98",
+        "svdm",
+        "ump45",
+        "vssk-vyhlop"
+      ],
+      "capacity": null,
+      "modifiers": {},
+      "weight": 0.22,
+      "volume": 40,
+      "shopPrice": 1020,
+      "source": "https://activematter.wiki.gg/wiki/AP_Pro_Collimator"
+    },
+    {
+      "id": "docter-sight-mp443",
+      "name": "DCT MP443 Collimator",
+      "slot": "scope",
+      "rarity": "Common",
+      "weapons": [
+        "mp-443"
+      ],
+      "capacity": null,
+      "modifiers": {},
+      "weight": 0.05,
+      "volume": 15,
+      "shopPrice": 975,
+      "source": "https://activematter.wiki.gg/wiki/DCT_Collimator"
+    },
+    {
+      "id": "docter-sight-glock",
+      "name": "DCT P17 Collimator",
+      "slot": "scope",
+      "rarity": "Common",
+      "weapons": [
+        "glock-17",
+        "p17-v"
+      ],
+      "capacity": null,
+      "modifiers": {},
+      "weight": 0.05,
+      "volume": 15,
+      "shopPrice": 975,
+      "source": "https://activematter.wiki.gg/wiki/DCT_Collimator"
+    },
+    {
+      "id": "dovetail-1p87-mount",
+      "name": "Dovetail Mount (1P87)",
+      "slot": "scope",
+      "rarity": "Common",
+      "weapons": [
+        "aek-971",
+        "ak-103",
+        "ak-74",
+        "an-94-abakan",
+        "as-val",
+        "rpk-74",
+        "sks",
+        "svd",
+        "vss-vintorez"
+      ],
+      "capacity": null,
+      "modifiers": {},
+      "weight": 0.2,
+      "volume": 25,
+      "shopPrice": 900
+    },
+    {
+      "id": "ekp-8-18-cobra-mount",
+      "name": "Dovetail Mount (EKP-8-18 Cobra)",
+      "slot": "scope",
+      "rarity": "Common",
+      "weapons": [
+        "aek-971",
+        "ak-103",
+        "ak-74",
+        "an-94-abakan",
+        "as-val",
+        "rpk-74",
+        "sks",
+        "svd",
+        "vss-vintorez"
+      ],
+      "capacity": null,
+      "modifiers": {},
+      "weight": 0.2,
+      "volume": 25,
+      "shopPrice": 900
+    },
+    {
+      "id": "vortex-lpvo-101-mount",
+      "name": "Dovetail Mount (Vortex LPVO)",
+      "slot": "scope",
+      "rarity": "Common",
+      "weapons": [
+        "aek-971",
+        "ak-103",
+        "ak-74",
+        "an-94-abakan",
+        "as-val",
+        "rpk-74",
+        "sks",
+        "svd",
+        "vss-vintorez"
+      ],
+      "capacity": null,
+      "modifiers": {},
+      "weight": 0.2,
+      "volume": 25,
+      "shopPrice": 900
+    },
+    {
+      "id": "scope-eotech-exps3",
+      "name": "EXPS3 Collimator",
+      "slot": "scope",
+      "rarity": "Uncommon",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "barrett-m82a1",
+        "dp-12",
+        "fn-evolys",
+        "hk-g3a4",
+        "hk416a5",
+        "kriss-vector",
+        "m110a1",
+        "m16a4",
+        "m24",
+        "m249-para",
+        "m39-emr",
+        "m4a1",
+        "mac-11",
+        "origin-12",
+        "pp-19-vityaz",
+        "pp-2000",
+        "rpl-20",
+        "rsh-12",
+        "scar-h",
+        "scar-l",
+        "scorpion-evo-3",
+        "sv-98",
+        "svdm",
+        "ump45",
+        "vssk-vyhlop"
+      ],
+      "capacity": null,
+      "modifiers": {},
+      "weight": 0.32,
+      "volume": 25,
+      "shopPrice": 4020,
+      "source": "https://activematter.wiki.gg/wiki/EXPS3_Collimator"
+    },
+    {
+      "id": "scope-lpvo101",
+      "name": "LPVO 101 Scope 1-10x magn.",
+      "slot": "scope",
+      "rarity": "Uncommon",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "barrett-m82a1",
+        "dp-12",
+        "fn-evolys",
+        "hk-g3a4",
+        "hk416a5",
+        "m110a1",
+        "m16a4",
+        "m24",
+        "m249-para",
+        "m39-emr",
+        "origin-12",
+        "rpl-20",
+        "scar-h",
+        "scar-l",
+        "sv-98",
+        "svdm",
+        "vssk-vyhlop"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": -10
+      },
+      "weight": 0.61,
+      "volume": 50,
+      "shopPrice": 13000,
+      "source": "https://activematter.wiki.gg/wiki/LPVO_101_Scope_1-10x_magn."
+    },
+    {
+      "id": "picatinny-1inch-riser-long",
+      "name": "Long mount",
+      "slot": "scope",
+      "rarity": "Common",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "barrett-m82a1",
+        "dp-12",
+        "fn-evolys",
+        "hk-g3a4",
+        "hk416a5",
+        "kriss-vector",
+        "m110a1",
+        "m16a4",
+        "m24",
+        "m249-para",
+        "m39-emr",
+        "m4a1",
+        "mac-11",
+        "origin-12",
+        "pp-19-vityaz",
+        "pp-2000",
+        "rpl-20",
+        "rsh-12",
+        "scar-h",
+        "scar-l",
+        "scorpion-evo-3",
+        "sv-98",
+        "svdm",
+        "ump45",
+        "vssk-vyhlop"
+      ],
+      "capacity": null,
+      "modifiers": {},
+      "weight": 0.1,
+      "volume": 25,
+      "shopPrice": 500,
+      "source": "https://activematter.wiki.gg/wiki/Long_mount"
+    },
+    {
+      "id": "scope-ar-tel",
+      "name": "M14 Scope 3-9x magn.",
+      "slot": "scope",
+      "rarity": "Uncommon",
+      "weapons": [
+        "m14"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": -10
+      },
+      "weight": 0.43,
+      "volume": 70,
+      "shopPrice": 5000,
+      "source": "https://activematter.wiki.gg/wiki/M14_Scope_3-9x_magn."
+    },
+    {
+      "id": "scope-m68-cco",
+      "name": "M68 CCO Collimator",
+      "slot": "scope",
+      "rarity": "Common",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "barrett-m82a1",
+        "dp-12",
+        "fn-evolys",
+        "hk-g3a4",
+        "hk416a5",
+        "kriss-vector",
+        "m110a1",
+        "m16a4",
+        "m24",
+        "m249-para",
+        "m39-emr",
+        "m4a1",
+        "mac-11",
+        "origin-12",
+        "pp-19-vityaz",
+        "pp-2000",
+        "rpl-20",
+        "rsh-12",
+        "scar-h",
+        "scar-l",
+        "scorpion-evo-3",
+        "sv-98",
+        "svdm",
+        "ump45",
+        "vssk-vyhlop"
+      ],
+      "capacity": null,
+      "modifiers": {},
+      "weight": 0.25,
+      "volume": 40,
+      "shopPrice": 1280,
+      "source": "https://activematter.wiki.gg/wiki/M68_CCO_Collimator"
+    },
+    {
+      "id": "scope-moosemark",
+      "name": "Moosemark Collimator",
+      "slot": "scope",
+      "rarity": "Uncommon",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "barrett-m82a1",
+        "dp-12",
+        "fn-evolys",
+        "hk-g3a4",
+        "hk416a5",
+        "kriss-vector",
+        "m110a1",
+        "m16a4",
+        "m24",
+        "m249-para",
+        "m39-emr",
+        "m4a1",
+        "mac-11",
+        "origin-12",
+        "pp-19-vityaz",
+        "pp-2000",
+        "rpl-20",
+        "rsh-12",
+        "scar-h",
+        "scar-l",
+        "scorpion-evo-3",
+        "sv-98",
+        "svdm",
+        "ump45",
+        "vssk-vyhlop"
+      ],
+      "capacity": null,
+      "modifiers": {},
+      "weight": 0.11,
+      "volume": 25,
+      "shopPrice": 7400,
+      "source": "https://activematter.wiki.gg/wiki/Moosemark_Collimator"
+    },
+    {
+      "id": "scope-okp7-dovetail",
+      "name": "OKP-7 Dovetail Collimator",
+      "slot": "scope",
+      "rarity": "Uncommon",
+      "weapons": [
+        "aek-971",
+        "ak-103",
+        "ak-74",
+        "an-94-abakan",
+        "as-val",
+        "rpk-74",
+        "sks",
+        "svd",
+        "vss-vintorez"
+      ],
+      "capacity": null,
+      "modifiers": {},
+      "weight": 0.3,
+      "volume": 40,
+      "shopPrice": 3360,
+      "source": "https://activematter.wiki.gg/wiki/OKP-7_Collimator"
+    },
+    {
+      "id": "scope-okp7-rail",
+      "name": "OKP-7 Picatinny Collimator",
+      "slot": "scope",
+      "rarity": "Uncommon",
+      "weapons": [
+        "aek-971",
+        "ak-103",
+        "ak-12",
+        "ak-15sk",
+        "ak-74",
+        "an-94-abakan",
+        "ash-12",
+        "barrett-m82a1",
+        "dp-12",
+        "fn-evolys",
+        "hk-g3a4",
+        "hk416a5",
+        "kriss-vector",
+        "m110a1",
+        "m16a4",
+        "m24",
+        "m249-para",
+        "m39-emr",
+        "m4a1",
+        "mac-11",
+        "origin-12",
+        "pp-19-vityaz",
+        "pp-2000",
+        "rpk-74",
+        "rpl-20",
+        "rsh-12",
+        "scar-h",
+        "scar-l",
+        "scorpion-evo-3",
+        "sv-98",
+        "svdm",
+        "ump45",
+        "vssk-vyhlop"
+      ],
+      "capacity": null,
+      "modifiers": {},
+      "weight": 0.26,
+      "volume": 35,
+      "shopPrice": 3320,
+      "source": "https://activematter.wiki.gg/wiki/OKP-7_Collimator"
+    },
+    {
+      "id": "scope-pk06",
+      "name": "PK-06 Collimator",
+      "slot": "scope",
+      "rarity": "Uncommon",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "barrett-m82a1",
+        "dp-12",
+        "fn-evolys",
+        "hk-g3a4",
+        "hk416a5",
+        "kriss-vector",
+        "m110a1",
+        "m16a4",
+        "m24",
+        "m249-para",
+        "m39-emr",
+        "m4a1",
+        "mac-11",
+        "origin-12",
+        "pp-19-vityaz",
+        "pp-2000",
+        "rpl-20",
+        "rsh-12",
+        "scar-h",
+        "scar-l",
+        "scorpion-evo-3",
+        "sv-98",
+        "svdm",
+        "ump45",
+        "vssk-vyhlop"
+      ],
+      "capacity": null,
+      "modifiers": {},
+      "weight": 0.09,
+      "volume": 25,
+      "shopPrice": 3400,
+      "source": "https://activematter.wiki.gg/wiki/PK-06_Collimator"
+    },
+    {
+      "id": "scope-pk-av",
+      "name": "PK-AV Collimator",
+      "slot": "scope",
+      "rarity": "Common",
+      "weapons": [
+        "aek-971",
+        "ak-103",
+        "ak-74",
+        "an-94-abakan",
+        "as-val",
+        "rpk-74",
+        "sks",
+        "svd",
+        "vss-vintorez"
+      ],
+      "capacity": null,
+      "modifiers": {},
+      "weight": 0.64,
+      "volume": 50,
+      "shopPrice": 740,
+      "source": "https://activematter.wiki.gg/wiki/PK-AV_Collimator"
+    },
+    {
+      "id": "scope-ppo-5-15",
+      "name": "PPO Scope 5-15x magn.",
+      "slot": "scope",
+      "rarity": "Rare",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "barrett-m82a1",
+        "dp-12",
+        "fn-evolys",
+        "hk-g3a4",
+        "hk416a5",
+        "m110a1",
+        "m16a4",
+        "m24",
+        "m249-para",
+        "m39-emr",
+        "origin-12",
+        "rpl-20",
+        "scar-h",
+        "scar-l",
+        "sv-98",
+        "svdm",
+        "vssk-vyhlop"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": -15
+      },
+      "weight": 1.7,
+      "volume": 65,
+      "shopPrice": 24000,
+      "source": "https://activematter.wiki.gg/wiki/PPO_Scope_5-15x_magn."
+    },
+    {
+      "id": "scope-schmidt-pm2",
+      "name": "SAB PM2 Scope 5-25x magn.",
+      "slot": "scope",
+      "rarity": "Rare",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "barrett-m82a1",
+        "dp-12",
+        "fn-evolys",
+        "hk-g3a4",
+        "hk416a5",
+        "m110a1",
+        "m16a4",
+        "m24",
+        "m249-para",
+        "m39-emr",
+        "origin-12",
+        "rpl-20",
+        "scar-h",
+        "scar-l",
+        "sv-98",
+        "svdm",
+        "vssk-vyhlop"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": -15
+      },
+      "weight": 1.35,
+      "volume": 80,
+      "shopPrice": 28000,
+      "source": "https://activematter.wiki.gg/wiki/SAB_PM2_Scope_5-25x_magn."
+    },
+    {
+      "id": "scope-1p78",
+      "name": "Scope 1P78 2.8x magn.",
+      "slot": "scope",
+      "rarity": "Common",
+      "weapons": [
+        "aek-971",
+        "ak-103",
+        "ak-74",
+        "an-94-abakan",
+        "as-val",
+        "rpk-74",
+        "sks",
+        "svd",
+        "vss-vintorez"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": -10
+      },
+      "weight": 0.7,
+      "volume": 50,
+      "shopPrice": 1600,
+      "source": "https://activematter.wiki.gg/wiki/Scope_1P78_2.8x_magn."
+    },
+    {
+      "id": "scope-6x",
+      "name": "Scope 6x",
+      "slot": "scope",
+      "rarity": "Common",
+      "weapons": [
+        "mosin-sniper"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": -10
+      },
+      "weight": 0.55,
+      "volume": 40,
+      "shopPrice": null
+    },
+    {
+      "id": "scope-pso1",
+      "name": "Scope PSO AK 4.0x magn.",
+      "slot": "scope",
+      "rarity": "Common",
+      "weapons": [
+        "as-val",
+        "sks",
+        "svd",
+        "vss-vintorez"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": -10
+      },
+      "weight": 0.62,
+      "volume": 50,
+      "shopPrice": 1750,
+      "source": "https://activematter.wiki.gg/wiki/Scope_PSO_AK_4.0x_magn."
+    },
+    {
+      "id": "scope-pso1-high",
+      "name": "Scope PSO Marksman 4.0x magn.",
+      "slot": "scope",
+      "rarity": "Common",
+      "weapons": [
+        "aek-971",
+        "ak-103",
+        "ak-74",
+        "an-94-abakan",
+        "as-val",
+        "rpk-74",
+        "sks",
+        "svd",
+        "vss-vintorez"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": -10
+      },
+      "weight": 0.7,
+      "volume": 50,
+      "shopPrice": 1750,
+      "source": "https://activematter.wiki.gg/wiki/Scope_PSO_Marksman_4.0x_magn."
+    },
+    {
+      "id": "scope-3-5x",
+      "name": "Scope PU 3.5x magn.",
+      "slot": "scope",
+      "rarity": "Common",
+      "weapons": [
+        "mosin-sniper"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": -10
+      },
+      "weight": 0.55,
+      "volume": 40,
+      "shopPrice": 1250,
+      "source": "https://activematter.wiki.gg/wiki/Scope_PU_3.5x_magn."
+    },
+    {
+      "id": "picatinny-1inch-riser-short",
+      "name": "Short mount",
+      "slot": "scope",
+      "rarity": "Common",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "barrett-m82a1",
+        "dp-12",
+        "fn-evolys",
+        "hk-g3a4",
+        "hk416a5",
+        "kriss-vector",
+        "m110a1",
+        "m16a4",
+        "m24",
+        "m249-para",
+        "m39-emr",
+        "m4a1",
+        "mac-11",
+        "origin-12",
+        "pp-19-vityaz",
+        "pp-2000",
+        "rpl-20",
+        "rsh-12",
+        "scar-h",
+        "scar-l",
+        "scorpion-evo-3",
+        "sv-98",
+        "svdm",
+        "ump45",
+        "vssk-vyhlop"
+      ],
+      "capacity": null,
+      "modifiers": {},
+      "weight": 0.1,
+      "volume": 25,
+      "shopPrice": 500,
+      "source": "https://activematter.wiki.gg/wiki/Short_mount"
+    },
+    {
+      "id": "scope-elcan-specter",
+      "name": "Spectrum Scope 1-4x magn.",
+      "slot": "scope",
+      "rarity": "Uncommon",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "barrett-m82a1",
+        "dp-12",
+        "fn-evolys",
+        "hk-g3a4",
+        "hk416a5",
+        "kriss-vector",
+        "m110a1",
+        "m16a4",
+        "m24",
+        "m249-para",
+        "m39-emr",
+        "m4a1",
+        "mac-11",
+        "origin-12",
+        "pp-19-vityaz",
+        "pp-2000",
+        "rpl-20",
+        "rsh-12",
+        "scar-h",
+        "scar-l",
+        "scorpion-evo-3",
+        "sv-98",
+        "svdm",
+        "ump45",
+        "vssk-vyhlop"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": -10
+      },
+      "weight": 0.66,
+      "volume": 50,
+      "shopPrice": 8200,
+      "source": "https://activematter.wiki.gg/wiki/Spectrum_Scope_1-4x_magn."
+    },
+    {
+      "id": "scope-utg-t4",
+      "name": "T4 Scope 4.0x magn.",
+      "slot": "scope",
+      "rarity": "Common",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "barrett-m82a1",
+        "dp-12",
+        "fn-evolys",
+        "hk-g3a4",
+        "hk416a5",
+        "kriss-vector",
+        "m110a1",
+        "m16a4",
+        "m24",
+        "m249-para",
+        "m39-emr",
+        "m4a1",
+        "mac-11",
+        "origin-12",
+        "pp-19-vityaz",
+        "pp-2000",
+        "rpl-20",
+        "rsh-12",
+        "scar-h",
+        "scar-l",
+        "scorpion-evo-3",
+        "sv-98",
+        "svdm",
+        "ump45",
+        "vssk-vyhlop"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": -10
+      },
+      "weight": 0.49,
+      "volume": 50,
+      "shopPrice": 2900,
+      "source": "https://activematter.wiki.gg/wiki/T4_Scope_4.0x_magn."
+    },
+    {
+      "id": "scope-acog-ta31",
+      "name": "TA31 Scope 4.0x magn.",
+      "slot": "scope",
+      "rarity": "Common",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "barrett-m82a1",
+        "dp-12",
+        "fn-evolys",
+        "hk-g3a4",
+        "hk416a5",
+        "kriss-vector",
+        "m110a1",
+        "m16a4",
+        "m24",
+        "m249-para",
+        "m39-emr",
+        "m4a1",
+        "mac-11",
+        "origin-12",
+        "pp-19-vityaz",
+        "pp-2000",
+        "rpl-20",
+        "rsh-12",
+        "scar-h",
+        "scar-l",
+        "scorpion-evo-3",
+        "sv-98",
+        "svdm",
+        "ump45",
+        "vssk-vyhlop"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": -10
+      },
+      "weight": 0.43,
+      "volume": 50,
+      "shopPrice": 3200,
+      "source": "https://activematter.wiki.gg/wiki/TA31_Scope_4.0x_magn."
+    },
+    {
+      "id": "scope-sig-tango-6",
+      "name": "TNG6 Scope 1-6x magn.",
+      "slot": "scope",
+      "rarity": "Uncommon",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "barrett-m82a1",
+        "dp-12",
+        "fn-evolys",
+        "hk-g3a4",
+        "hk416a5",
+        "m110a1",
+        "m16a4",
+        "m24",
+        "m249-para",
+        "m39-emr",
+        "origin-12",
+        "rpl-20",
+        "scar-h",
+        "scar-l",
+        "sv-98",
+        "svdm",
+        "vssk-vyhlop"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": -10
+      },
+      "weight": 0.62,
+      "volume": 50,
+      "shopPrice": 13800,
+      "source": "https://activematter.wiki.gg/wiki/TNG6_Scope_1-6x_magn."
+    },
+    {
+      "id": "trijicon-rmr-collimator-sight-1911",
+      "name": "TRJ 1911 Collimator",
+      "slot": "scope",
+      "rarity": "Common",
+      "weapons": [
+        "m1911a1"
+      ],
+      "capacity": null,
+      "modifiers": {},
+      "weight": 0.05,
+      "volume": 15,
+      "shopPrice": 905,
+      "source": "https://activematter.wiki.gg/wiki/TRJ_Collimator"
+    },
+    {
+      "id": "trijicon-rmr-collimator-sight-m9",
+      "name": "TRJ M9 Collimator",
+      "slot": "scope",
+      "rarity": "Common",
+      "weapons": [
+        "m9",
+        "m9-tactical"
+      ],
+      "capacity": null,
+      "modifiers": {},
+      "weight": 0.05,
+      "volume": 15,
+      "shopPrice": 905,
+      "source": "https://activematter.wiki.gg/wiki/TRJ_Collimator"
+    },
+    {
+      "id": "scope-an-pas-thermal",
+      "name": "Thermal Scope AN/PAS-13B 5x magn.",
+      "slot": "scope",
+      "rarity": "Rare",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "barrett-m82a1",
+        "dp-12",
+        "fn-evolys",
+        "hk-g3a4",
+        "hk416a5",
+        "m110a1",
+        "m16a4",
+        "m24",
+        "m249-para",
+        "m39-emr",
+        "origin-12",
+        "rpl-20",
+        "scar-h",
+        "scar-l",
+        "sv-98",
+        "svdm",
+        "vssk-vyhlop"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": -25
+      },
+      "weight": 2.5,
+      "volume": 105,
+      "shopPrice": 39000,
+      "source": "https://activematter.wiki.gg/wiki/Thermal_Scope_AN/PAS-13B_5x_magn."
+    },
+    {
+      "id": "scope-scotopia-s350f-thermal",
+      "name": "Thermal Scope S350F 2.0x magn.",
+      "slot": "scope",
+      "rarity": "Rare",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "barrett-m82a1",
+        "dp-12",
+        "fn-evolys",
+        "hk-g3a4",
+        "hk416a5",
+        "m110a1",
+        "m16a4",
+        "m24",
+        "m249-para",
+        "m39-emr",
+        "origin-12",
+        "rpl-20",
+        "scar-h",
+        "scar-l",
+        "sv-98",
+        "svdm",
+        "vssk-vyhlop"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": -15
+      },
+      "weight": 0.61,
+      "volume": 65,
+      "shopPrice": 33000,
+      "source": "https://activematter.wiki.gg/wiki/Thermal_Scope_S350F_2.0x_magn."
+    },
+    {
+      "id": "scope-shahin",
+      "name": "Thermal Scope SHA 3.6x magn. (Dovetail)",
+      "slot": "scope",
+      "rarity": "Rare",
+      "weapons": [
+        "aek-971",
+        "ak-103",
+        "ak-74",
+        "an-94-abakan",
+        "as-val",
+        "rpk-74",
+        "sks",
+        "svd",
+        "vss-vintorez"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": -20
+      },
+      "weight": 1.4,
+      "volume": 110,
+      "shopPrice": 36000,
+      "source": "https://activematter.wiki.gg/wiki/Thermal_Scope_SHA_3.6x_magn."
+    },
+    {
+      "id": "scope-shahin-rail",
+      "name": "Thermal Scope SHA 3.6x magn. (Picatinny)",
+      "slot": "scope",
+      "rarity": "Rare",
+      "weapons": [
+        "aek-971",
+        "ak-103",
+        "ak-12",
+        "ak-15sk",
+        "ak-74",
+        "an-94-abakan",
+        "ash-12",
+        "barrett-m82a1",
+        "dp-12",
+        "fn-evolys",
+        "hk-g3a4",
+        "hk416a5",
+        "m110a1",
+        "m16a4",
+        "m24",
+        "m249-para",
+        "m39-emr",
+        "origin-12",
+        "rpk-74",
+        "rpl-20",
+        "scar-h",
+        "scar-l",
+        "sv-98",
+        "svdm",
+        "vssk-vyhlop"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": -20
+      },
+      "weight": 1.15,
+      "volume": 105,
+      "shopPrice": 35000,
+      "source": "https://activematter.wiki.gg/wiki/Thermal_Scope_SHA_3.6x_magn."
+    },
+    {
+      "id": "scope-vzor-1",
+      "name": "VZ1 Collimator",
+      "slot": "scope",
+      "rarity": "Common",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "barrett-m82a1",
+        "dp-12",
+        "fn-evolys",
+        "hk-g3a4",
+        "hk416a5",
+        "kriss-vector",
+        "m110a1",
+        "m16a4",
+        "m24",
+        "m249-para",
+        "m39-emr",
+        "m4a1",
+        "mac-11",
+        "origin-12",
+        "pp-19-vityaz",
+        "pp-2000",
+        "rpl-20",
+        "rsh-12",
+        "scar-h",
+        "scar-l",
+        "scorpion-evo-3",
+        "sv-98",
+        "svdm",
+        "ump45",
+        "vssk-vyhlop"
+      ],
+      "capacity": null,
+      "modifiers": {},
+      "weight": 0.13,
+      "volume": 40,
+      "shopPrice": 1400,
+      "source": "https://activematter.wiki.gg/wiki/VZ1_Collimator"
+    },
+    {
+      "id": "dlg-tactical-stock",
+      "name": "AK tactical stock",
+      "slot": "stock",
+      "rarity": "Uncommon",
+      "weapons": [
+        "ak-103",
+        "ak-12",
+        "ak-74",
+        "aks-74u",
+        "pp-19-vityaz"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -3,
+        "Aiming Speed": 9
+      },
+      "weight": 0.45,
+      "volume": 70,
+      "shopPrice": 10200,
+      "source": "https://activematter.wiki.gg/wiki/AK_tactical_stock"
+    },
+    {
+      "id": "ak-15-stock",
+      "name": "AK-EVO stock",
+      "slot": "stock",
+      "rarity": "Common",
+      "weapons": [
+        "ak-103",
+        "ak-12",
+        "ak-74",
+        "aks-74u",
+        "pp-19-vityaz"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -2,
+        "Aiming Speed": 12
+      },
+      "weight": 0.4,
+      "volume": 60,
+      "shopPrice": 1290,
+      "source": "https://activematter.wiki.gg/wiki/AK-EVO_stock"
+    },
+    {
+      "id": "mft-battlelink-minimalist-stock",
+      "name": "B-Link stock",
+      "slot": "stock",
+      "rarity": "Common",
+      "weapons": [
+        "hk416a5",
+        "kriss-vector",
+        "m110a1",
+        "m16a4",
+        "m4",
+        "m4a1"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -2,
+        "Aiming Speed": 12
+      },
+      "weight": 0.3,
+      "volume": 60,
+      "shopPrice": 800,
+      "source": "https://activematter.wiki.gg/wiki/B-Link_stock"
+    },
+    {
+      "id": "fab-defense-gl-core-stock",
+      "name": "F-Def GLC stock",
+      "slot": "stock",
+      "rarity": "Uncommon",
+      "weapons": [
+        "hk416a5",
+        "kriss-vector",
+        "m110a1",
+        "m16a4",
+        "m4",
+        "m4a1"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -3,
+        "Aiming Speed": 10
+      },
+      "weight": 0.27,
+      "volume": 70,
+      "shopPrice": 12200,
+      "source": "https://activematter.wiki.gg/wiki/F-Def_GLC_stock"
+    },
+    {
+      "id": "ks23-wire-stock",
+      "name": "KS-23 stock",
+      "slot": "stock",
+      "rarity": "Common",
+      "weapons": [
+        "ks-23"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -2,
+        "Aiming Speed": 12
+      },
+      "weight": 0.5,
+      "volume": 65,
+      "shopPrice": 1200,
+      "source": "https://activematter.wiki.gg/wiki/KS-23_stock"
+    },
+    {
+      "id": "hydraulic-collapsible-stock",
+      "name": "M249 Hydraulic collapsible stock",
+      "slot": "stock",
+      "rarity": "Uncommon",
+      "weapons": [
+        "m249-para"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -4,
+        "Aiming Speed": 7
+      },
+      "weight": 2.5,
+      "volume": 105,
+      "shopPrice": 11800,
+      "source": "https://activematter.wiki.gg/wiki/M249_Hydraulic_collapsible_stock"
+    },
+    {
+      "id": "m249-fixed-stock",
+      "name": "M249 stock",
+      "slot": "stock",
+      "rarity": "Common",
+      "weapons": [
+        "m249-para"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -2
+      },
+      "weight": 2.2,
+      "volume": 130,
+      "shopPrice": 2200,
+      "source": "https://activematter.wiki.gg/wiki/M249_stock"
+    },
+    {
+      "id": "mk-14-reinforced-stock",
+      "name": "M39 EMR reinforced stock",
+      "slot": "stock",
+      "rarity": "Uncommon",
+      "weapons": [
+        "m39-emr"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -3,
+        "Aiming Speed": 10,
+        "Hand Stamina Drain": -5
+      },
+      "weight": 0.39,
+      "volume": 85,
+      "shopPrice": 5800,
+      "source": "https://activematter.wiki.gg/wiki/M39_EMR_reinforced_stock"
+    },
+    {
+      "id": "barrett-m82-cheekpad",
+      "name": "M82A1 cheek pad",
+      "slot": "stock",
+      "rarity": "Uncommon",
+      "weapons": [
+        "barrett-m82a1"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -9
+      },
+      "weight": 0.3,
+      "volume": 40,
+      "shopPrice": 9900,
+      "source": "https://activematter.wiki.gg/wiki/M82A1_cheek_pad"
+    },
+    {
+      "id": "magpul-prs-stock",
+      "name": "MP PRS stock",
+      "slot": "stock",
+      "rarity": "Uncommon",
+      "weapons": [
+        "hk416a5",
+        "kriss-vector",
+        "m110a1",
+        "m16a4",
+        "m4",
+        "m4a1"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -4,
+        "Aiming Speed": 1,
+        "Equip Speed": 40
+      },
+      "weight": 0.8,
+      "volume": 85,
+      "shopPrice": 7200,
+      "source": "https://activematter.wiki.gg/wiki/MP_PRS_stock"
+    },
+    {
+      "id": "magpul-str-stock",
+      "name": "MP STR stock",
+      "slot": "stock",
+      "rarity": "Common",
+      "weapons": [
+        "hk416a5",
+        "kriss-vector",
+        "m110a1",
+        "m16a4",
+        "m4",
+        "m4a1"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -3,
+        "Aiming Speed": 9
+      },
+      "weight": 0.45,
+      "volume": 70,
+      "shopPrice": 1900,
+      "source": "https://activematter.wiki.gg/wiki/MP_STR_stock"
+    },
+    {
+      "id": "magpul-sl-k-scorpion-stock",
+      "name": "MP Scorpion stock",
+      "slot": "stock",
+      "rarity": "Common",
+      "weapons": [
+        "scorpion-evo-3"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -3,
+        "Aiming Speed": 9
+      },
+      "weight": 0.5,
+      "volume": 65,
+      "shopPrice": 1350,
+      "source": "https://activematter.wiki.gg/wiki/MP_Scorpion_stock"
+    },
+    {
+      "id": "pt-1-telescopic-stock",
+      "name": "PT-1 telescopic stock",
+      "slot": "stock",
+      "rarity": "Common",
+      "weapons": [
+        "ak-103",
+        "ak-12",
+        "ak-74",
+        "aks-74u",
+        "pp-19-vityaz"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -1,
+        "Aiming Speed": 14
+      },
+      "weight": 0.47,
+      "volume": 65,
+      "shopPrice": 1600,
+      "source": "https://activematter.wiki.gg/wiki/PT-1_telescopic_stock"
+    },
+    {
+      "id": "pt-2-telescopic-stock",
+      "name": "PT-2 telescopic stock",
+      "slot": "stock",
+      "rarity": "Uncommon",
+      "weapons": [
+        "pkm"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -2,
+        "Aiming Speed": 7
+      },
+      "weight": 0.65,
+      "volume": 70,
+      "shopPrice": 13800,
+      "source": "https://activematter.wiki.gg/wiki/PT-2_telescopic_stock"
+    },
+    {
+      "id": "pt-3-telescopic-stock",
+      "name": "PT-3 telescopic stock",
+      "slot": "stock",
+      "rarity": "Common",
+      "weapons": [
+        "ak-103",
+        "ak-12",
+        "ak-74",
+        "aks-74u",
+        "pp-19-vityaz"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -2,
+        "Aiming Speed": 12
+      },
+      "weight": 0.55,
+      "volume": 65,
+      "shopPrice": 1625,
+      "source": "https://activematter.wiki.gg/wiki/PT-3_telescopic_stock"
+    },
+    {
+      "id": "zenith-4tk-laser-sight",
+      "name": "4TK Laser Sight",
+      "slot": "tactical",
+      "rarity": "Common",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "fn-evolys",
+        "hk416a5",
+        "kriss-vector",
+        "m16a4",
+        "m39-emr",
+        "mac-11",
+        "origin-12",
+        "rpl-20",
+        "rsh-12",
+        "scar-h",
+        "scar-l",
+        "scorpion-evo-3",
+        "ump45"
+      ],
+      "capacity": null,
+      "modifiers": {},
+      "weight": 0.14,
+      "volume": 40,
+      "shopPrice": 1490,
+      "source": "https://activematter.wiki.gg/wiki/4TK_Laser_Sight"
+    },
+    {
+      "id": "an-peq-15-tactical-block",
+      "name": "AN/PEQ-15 Tactical Device",
+      "slot": "tactical",
+      "rarity": "Uncommon",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "fn-evolys",
+        "hk416a5",
+        "kriss-vector",
+        "m16a4",
+        "m39-emr",
+        "mac-11",
+        "origin-12",
+        "rpl-20",
+        "rsh-12",
+        "scar-h",
+        "scar-l",
+        "scorpion-evo-3",
+        "ump45"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": -3
+      },
+      "weight": 0.21,
+      "volume": 40,
+      "shopPrice": 5400,
+      "source": "https://activematter.wiki.gg/wiki/AN/PEQ-15_Tactical_Device"
+    },
+    {
+      "id": "bh-lgr03-laser-sight",
+      "name": "BH-LGR03 Laser Sight",
+      "slot": "tactical",
+      "rarity": "Common",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "fn-evolys",
+        "hk416a5",
+        "kriss-vector",
+        "m16a4",
+        "m39-emr",
+        "mac-11",
+        "origin-12",
+        "rpl-20",
+        "rsh-12",
+        "scar-h",
+        "scar-l",
+        "scorpion-evo-3",
+        "ump45"
+      ],
+      "capacity": null,
+      "modifiers": {},
+      "weight": 0.09,
+      "volume": 25,
+      "shopPrice": 1250,
+      "source": "https://activematter.wiki.gg/wiki/BH-LGR03_Laser_Sight"
+    },
+    {
+      "id": "ncstar-tactical-laser-sight",
+      "name": "Blue Star Laser Sight",
+      "slot": "tactical",
+      "rarity": "Uncommon",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "fn-evolys",
+        "hk416a5",
+        "kriss-vector",
+        "m16a4",
+        "m39-emr",
+        "mac-11",
+        "origin-12",
+        "rpl-20",
+        "rsh-12",
+        "scar-h",
+        "scar-l",
+        "scorpion-evo-3",
+        "ump45"
+      ],
+      "capacity": null,
+      "modifiers": {},
+      "weight": 0.09,
+      "volume": 25,
+      "shopPrice": 3600,
+      "source": "https://activematter.wiki.gg/wiki/Blue_Star_Laser_Sight"
+    },
+    {
+      "id": "viridian-c5-laser-sight",
+      "name": "C5 Laser Sight",
+      "slot": "tactical",
+      "rarity": "Common",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "fn-evolys",
+        "hk416a5",
+        "kriss-vector",
+        "m16a4",
+        "m39-emr",
+        "mac-11",
+        "origin-12",
+        "rpl-20",
+        "rsh-12",
+        "scar-h",
+        "scar-l",
+        "scorpion-evo-3",
+        "ump45"
+      ],
+      "capacity": null,
+      "modifiers": {},
+      "weight": 0.05,
+      "volume": 25,
+      "shopPrice": 1050,
+      "source": "https://activematter.wiki.gg/wiki/C5_Laser_Sight"
+    },
+    {
+      "id": "dbal-a2-tactical-block",
+      "name": "DBAL-A2 Tactical Device",
+      "slot": "tactical",
+      "rarity": "Uncommon",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "fn-evolys",
+        "hk416a5",
+        "kriss-vector",
+        "m16a4",
+        "m39-emr",
+        "mac-11",
+        "origin-12",
+        "rpl-20",
+        "rsh-12",
+        "scar-h",
+        "scar-l",
+        "scorpion-evo-3",
+        "ump45"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": -3
+      },
+      "weight": 0.23,
+      "volume": 40,
+      "shopPrice": 7300,
+      "source": "https://activematter.wiki.gg/wiki/DBAL-A2_Tactical_Device"
+    },
+    {
+      "id": "perst-3-tactical-block",
+      "name": "Dlan-3 Tactical Device",
+      "slot": "tactical",
+      "rarity": "Uncommon",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "fn-evolys",
+        "hk416a5",
+        "kriss-vector",
+        "m16a4",
+        "m39-emr",
+        "mac-11",
+        "origin-12",
+        "rpl-20",
+        "rsh-12",
+        "scar-h",
+        "scar-l",
+        "scorpion-evo-3",
+        "ump45"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": -3
+      },
+      "weight": 0.3,
+      "volume": 40,
+      "shopPrice": 4300,
+      "source": "https://activematter.wiki.gg/wiki/Dlan-3_Tactical_Device"
+    },
+    {
+      "id": "gun-flashlight-klesh-2d",
+      "name": "K2D Flashlight",
+      "slot": "tactical",
+      "rarity": "Common",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "fn-evolys",
+        "hk416a5",
+        "kriss-vector",
+        "m16a4",
+        "m39-emr",
+        "mac-11",
+        "origin-12",
+        "rpl-20",
+        "rsh-12",
+        "scar-h",
+        "scar-l",
+        "scorpion-evo-3",
+        "ump45"
+      ],
+      "capacity": null,
+      "modifiers": {},
+      "weight": 0.19,
+      "volume": 40,
+      "shopPrice": 950,
+      "source": "https://activematter.wiki.gg/wiki/K2D_Flashlight"
+    },
+    {
+      "id": "gun-flashlight-surefire-m600-ultra-scout",
+      "name": "M600 Scout Flashlight",
+      "slot": "tactical",
+      "rarity": "Uncommon",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "fn-evolys",
+        "hk416a5",
+        "kriss-vector",
+        "m16a4",
+        "m39-emr",
+        "mac-11",
+        "origin-12",
+        "rpl-20",
+        "rsh-12",
+        "scar-h",
+        "scar-l",
+        "scorpion-evo-3",
+        "ump45"
+      ],
+      "capacity": null,
+      "modifiers": {},
+      "weight": 0.125,
+      "volume": 40,
+      "shopPrice": 3160,
+      "source": "https://activematter.wiki.gg/wiki/M600_Scout_Flashlight"
+    },
+    {
+      "id": "est-om-laser-sight",
+      "name": "OM Laser Sight",
+      "slot": "tactical",
+      "rarity": "Common",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "fn-evolys",
+        "hk416a5",
+        "kriss-vector",
+        "m16a4",
+        "m39-emr",
+        "mac-11",
+        "origin-12",
+        "rpl-20",
+        "rsh-12",
+        "scar-h",
+        "scar-l",
+        "scorpion-evo-3",
+        "ump45"
+      ],
+      "capacity": null,
+      "modifiers": {},
+      "weight": 0.11,
+      "volume": 25,
+      "shopPrice": 825,
+      "source": "https://activematter.wiki.gg/wiki/OM_Laser_Sight"
+    },
+    {
+      "id": "ebf-2-bipod-foregrip",
+      "name": "BFE Grip",
+      "slot": "underbarrel",
+      "rarity": "Rare",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "fn-evolys",
+        "hk416a5",
+        "kriss-vector",
+        "m16a4",
+        "m39-emr",
+        "mac-11",
+        "origin-12",
+        "rpl-20",
+        "rsh-12",
+        "scar-h",
+        "scar-l",
+        "scorpion-evo-3",
+        "ump45"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -5,
+        "Aiming Speed": -3,
+        "Hand Stamina Drain": 5
+      },
+      "weight": 0.24,
+      "volume": 60,
+      "shopPrice": 9700,
+      "source": "https://activematter.wiki.gg/wiki/BFE_Grip"
+    },
+    {
+      "id": "fn-evolys-bipod",
+      "name": "EV-MG lightweight bipod",
+      "slot": "underbarrel",
+      "rarity": "Uncommon",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "fn-evolys",
+        "hk416a5",
+        "kriss-vector",
+        "m16a4",
+        "m39-emr",
+        "mac-11",
+        "origin-12",
+        "rpl-20",
+        "rsh-12",
+        "scar-h",
+        "scar-l",
+        "scorpion-evo-3",
+        "ump45"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": -5
+      },
+      "weight": 0.3,
+      "volume": 60,
+      "shopPrice": 9800,
+      "source": "https://activematter.wiki.gg/wiki/EV-MG_lightweight_bipod"
+    },
+    {
+      "id": "utg-5-position-foregrip",
+      "name": "Ergo-5 Grip",
+      "slot": "underbarrel",
+      "rarity": "Rare",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "fn-evolys",
+        "hk416a5",
+        "kriss-vector",
+        "m16a4",
+        "m39-emr",
+        "mac-11",
+        "origin-12",
+        "rpl-20",
+        "rsh-12",
+        "scar-h",
+        "scar-l",
+        "scorpion-evo-3",
+        "ump45"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -3,
+        "Aiming Speed": 2,
+        "Hand Stamina Drain": -8
+      },
+      "weight": 0.196,
+      "volume": 60,
+      "shopPrice": 10500,
+      "source": "https://activematter.wiki.gg/wiki/Ergo-5_Grip"
+    },
+    {
+      "id": "rtk-fab-defence-foregrip",
+      "name": "F-Def RTK Angled Grip",
+      "slot": "underbarrel",
+      "rarity": "Uncommon",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "fn-evolys",
+        "hk416a5",
+        "kriss-vector",
+        "m16a4",
+        "m39-emr",
+        "mac-11",
+        "origin-12",
+        "rpl-20",
+        "rsh-12",
+        "scar-h",
+        "scar-l",
+        "scorpion-evo-3",
+        "ump45"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -2,
+        "Aiming Speed": 2,
+        "Hand Stamina Drain": -1
+      },
+      "weight": 0.068,
+      "volume": 60,
+      "shopPrice": 6500,
+      "source": "https://activematter.wiki.gg/wiki/F-Def_RTK_Angled_Grip"
+    },
+    {
+      "id": "bcmgunfighter-foregrip",
+      "name": "Gunslinger Grip",
+      "slot": "underbarrel",
+      "rarity": "Uncommon",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "fn-evolys",
+        "hk416a5",
+        "kriss-vector",
+        "m16a4",
+        "m39-emr",
+        "mac-11",
+        "origin-12",
+        "rpl-20",
+        "rsh-12",
+        "scar-h",
+        "scar-l",
+        "scorpion-evo-3",
+        "ump45"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -3,
+        "Aiming Speed": 3
+      },
+      "weight": 0.05,
+      "volume": 60,
+      "shopPrice": 5650,
+      "source": "https://activematter.wiki.gg/wiki/Gunslinger_Grip"
+    },
+    {
+      "id": "molot-foregrip",
+      "name": "Kuvalda Grip",
+      "slot": "underbarrel",
+      "rarity": "Common",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "fn-evolys",
+        "hk416a5",
+        "kriss-vector",
+        "m16a4",
+        "m39-emr",
+        "mac-11",
+        "origin-12",
+        "rpl-20",
+        "rsh-12",
+        "scar-h",
+        "scar-l",
+        "scorpion-evo-3",
+        "ump45"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -3,
+        "Aiming Speed": 3,
+        "Hand Stamina Drain": 3
+      },
+      "weight": 0.22,
+      "volume": 60,
+      "shopPrice": 780,
+      "source": "https://activematter.wiki.gg/wiki/Kuvalda_Grip"
+    },
+    {
+      "id": "magpul-afg2-foregrip",
+      "name": "MP Angled Grip",
+      "slot": "underbarrel",
+      "rarity": "Uncommon",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "fn-evolys",
+        "hk416a5",
+        "kriss-vector",
+        "m16a4",
+        "m39-emr",
+        "mac-11",
+        "origin-12",
+        "rpl-20",
+        "rsh-12",
+        "scar-h",
+        "scar-l",
+        "scorpion-evo-3",
+        "ump45"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -1,
+        "Aiming Speed": 5,
+        "Hand Stamina Drain": -2
+      },
+      "weight": 0.07,
+      "volume": 60,
+      "shopPrice": 4900,
+      "source": "https://activematter.wiki.gg/wiki/MP_Angled_Grip"
+    },
+    {
+      "id": "pp2000-foregrip-gun-flashlight",
+      "name": "PP-2000 Foregrip Flashlight",
+      "slot": "underbarrel",
+      "rarity": "Common",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "kriss-vector",
+        "mac-11",
+        "origin-12",
+        "rsh-12",
+        "scar-h",
+        "scar-l",
+        "scorpion-evo-3",
+        "ump45"
+      ],
+      "capacity": null,
+      "modifiers": {},
+      "weight": 0.14,
+      "volume": 40,
+      "shopPrice": 1200
+    },
+    {
+      "id": "utg-qd-foregrip",
+      "name": "QD Grip",
+      "slot": "underbarrel",
+      "rarity": "Common",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "fn-evolys",
+        "hk416a5",
+        "kriss-vector",
+        "m16a4",
+        "m39-emr",
+        "mac-11",
+        "origin-12",
+        "rpl-20",
+        "rsh-12",
+        "scar-h",
+        "scar-l",
+        "scorpion-evo-3",
+        "ump45"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -2,
+        "Aiming Speed": 5,
+        "Hand Stamina Drain": 4
+      },
+      "weight": 0.275,
+      "volume": 60,
+      "shopPrice": 1250,
+      "source": "https://activematter.wiki.gg/wiki/QD_Grip"
+    },
+    {
+      "id": "rpk-16-bipod",
+      "name": "RPK-16 bipod",
+      "slot": "underbarrel",
+      "rarity": "Common",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "fn-evolys",
+        "hk416a5",
+        "kriss-vector",
+        "m16a4",
+        "m39-emr",
+        "mac-11",
+        "origin-12",
+        "rpl-20",
+        "rsh-12",
+        "scar-h",
+        "scar-l",
+        "scorpion-evo-3",
+        "ump45"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Aiming Speed": -10,
+        "Equip Speed": 10
+      },
+      "weight": 0.4,
+      "volume": 60,
+      "shopPrice": 1220,
+      "source": "https://activematter.wiki.gg/wiki/RPK-16_bipod"
+    },
+    {
+      "id": "tangodown-standart-vertical-foregrip",
+      "name": "Vertical Grip",
+      "slot": "underbarrel",
+      "rarity": "Common",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "fn-evolys",
+        "hk416a5",
+        "kriss-vector",
+        "m16a4",
+        "m39-emr",
+        "mac-11",
+        "origin-12",
+        "rpl-20",
+        "rsh-12",
+        "scar-h",
+        "scar-l",
+        "scorpion-evo-3",
+        "ump45"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -3,
+        "Aiming Speed": 4,
+        "Hand Stamina Drain": 2
+      },
+      "weight": 0.17,
+      "volume": 60,
+      "shopPrice": 1625,
+      "source": "https://activematter.wiki.gg/wiki/Vertical_Grip"
+    },
+    {
+      "id": "rk-2-foregrip-angled",
+      "name": "Z-KO RK2 Side Grip",
+      "slot": "underbarrel",
+      "rarity": "Uncommon",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "fn-evolys",
+        "hk416a5",
+        "kriss-vector",
+        "m16a4",
+        "m39-emr",
+        "mac-11",
+        "origin-12",
+        "rpl-20",
+        "rsh-12",
+        "scar-h",
+        "scar-l",
+        "scorpion-evo-3",
+        "ump45"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -1,
+        "Aiming Speed": -7,
+        "Hip-Fire Recoil": -7,
+        "Hand Stamina Drain": 7
+      },
+      "weight": 0.18,
+      "volume": 60,
+      "shopPrice": 4100,
+      "source": "https://activematter.wiki.gg/wiki/Z-KO_RK2_Side_Grip"
+    },
+    {
+      "id": "rk-2-foregrip-vertical",
+      "name": "Z-KO RK2 Vertical Grip",
+      "slot": "underbarrel",
+      "rarity": "Common",
+      "weapons": [
+        "ak-12",
+        "ak-15sk",
+        "ash-12",
+        "fn-evolys",
+        "hk416a5",
+        "kriss-vector",
+        "m16a4",
+        "m39-emr",
+        "mac-11",
+        "origin-12",
+        "rpl-20",
+        "rsh-12",
+        "scar-h",
+        "scar-l",
+        "scorpion-evo-3",
+        "ump45"
+      ],
+      "capacity": null,
+      "modifiers": {
+        "Recoil": -4,
+        "Aiming Speed": 1,
+        "Hand Stamina Drain": 6
+      },
+      "weight": 0.18,
+      "volume": 60,
+      "shopPrice": 2000,
+      "source": "https://activematter.wiki.gg/wiki/Z-KO_RK2_Vertical_Grip"
+    }
+  ]
+}

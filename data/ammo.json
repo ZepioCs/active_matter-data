@@ -1,0 +1,635 @@
+{
+  "schemaVersion": 1,
+  "_note": "Game-file damage model (dist/blk, researched 2026-09-18). damage = reference damage at 10 m vs unarmored flesh = hitPowerMult x 10 (human_damage_model__dmgMult). falloff = [distanceM, multiplier] from gamedata/weapons/bullets hitpower curves (linear interpolation). pellets = projectiles per trigger pull (12ga x12, 23x75 x8). 12 Gauge damage is PER PELLET. RPG-7 rocket damage is the splash reference; the shaped-charge jet (1000 pen / 1000 dmg) is listed under cumulative. Box prices stay wiki-sourced estimates where unverified.",
+  "researchedAt": "2026-09-18",
+  "damageModel": {
+    "dmgMult": 10.0,
+    "reference": "10 m vs unarmored flesh"
+  },
+  "ammo": [
+    {
+      "name": "5.56mm",
+      "damage": 140.0,
+      "boxPrice": 850,
+      "roundsPerBox": 60,
+      "hitPowerMult": 14.0,
+      "pellets": 1,
+      "falloff": [
+        [
+          10,
+          1.0
+        ],
+        [
+          25,
+          0.95
+        ],
+        [
+          50,
+          0.9
+        ],
+        [
+          100,
+          0.81
+        ],
+        [
+          200,
+          0.65
+        ],
+        [
+          400,
+          0.41
+        ],
+        [
+          600,
+          0.26
+        ],
+        [
+          1000,
+          0.11
+        ],
+        [
+          1500,
+          0.05
+        ]
+      ],
+      "source": "https://activematter.wiki.gg/wiki/5.56mm_ammo_box"
+    },
+    {
+      "name": "5.45x39mm",
+      "damage": 130.0,
+      "boxPrice": 600,
+      "roundsPerBox": 60,
+      "hitPowerMult": 13.0,
+      "pellets": 1,
+      "falloff": [
+        [
+          10,
+          1.0
+        ],
+        [
+          25,
+          0.95
+        ],
+        [
+          50,
+          0.9
+        ],
+        [
+          100,
+          0.81
+        ],
+        [
+          200,
+          0.65
+        ],
+        [
+          400,
+          0.41
+        ],
+        [
+          600,
+          0.26
+        ],
+        [
+          1000,
+          0.1
+        ],
+        [
+          1500,
+          0.04
+        ]
+      ]
+    },
+    {
+      "name": "7.62x39mm",
+      "damage": 170.0,
+      "boxPrice": 800,
+      "roundsPerBox": 60,
+      "hitPowerMult": 17.0,
+      "pellets": 1,
+      "falloff": [
+        [
+          10,
+          1.0
+        ],
+        [
+          25,
+          0.95
+        ],
+        [
+          50,
+          0.9
+        ],
+        [
+          100,
+          0.8
+        ],
+        [
+          300,
+          0.65
+        ],
+        [
+          400,
+          0.41
+        ],
+        [
+          600,
+          0.26
+        ],
+        [
+          1000,
+          0.11
+        ],
+        [
+          1500,
+          0.05
+        ]
+      ],
+      "source": "https://activematter.wiki.gg/wiki/7.62x39mm_ammo_box"
+    },
+    {
+      "name": "7.62x51mm",
+      "damage": 250.0,
+      "boxPrice": 900,
+      "roundsPerBox": 60,
+      "hitPowerMult": 25.0,
+      "pellets": 1,
+      "falloff": [
+        [
+          10,
+          1.0
+        ],
+        [
+          25,
+          0.96
+        ],
+        [
+          50,
+          0.93
+        ],
+        [
+          100,
+          0.86
+        ],
+        [
+          200,
+          0.73
+        ],
+        [
+          400,
+          0.53
+        ],
+        [
+          600,
+          0.38
+        ],
+        [
+          1000,
+          0.19
+        ],
+        [
+          1500,
+          0.08
+        ]
+      ]
+    },
+    {
+      "name": "7.62x54mm",
+      "damage": 260.0,
+      "boxPrice": 900,
+      "roundsPerBox": 60,
+      "hitPowerMult": 26.0,
+      "pellets": 1,
+      "falloff": [
+        [
+          10,
+          1.0
+        ],
+        [
+          25,
+          0.96
+        ],
+        [
+          50,
+          0.93
+        ],
+        [
+          100,
+          0.86
+        ],
+        [
+          200,
+          0.73
+        ],
+        [
+          400,
+          0.53
+        ],
+        [
+          600,
+          0.38
+        ],
+        [
+          1000,
+          0.19
+        ],
+        [
+          1500,
+          0.08
+        ]
+      ]
+    },
+    {
+      "name": "9x19mm",
+      "damage": 90.0,
+      "boxPrice": 500,
+      "roundsPerBox": 60,
+      "hitPowerMult": 9.0,
+      "pellets": 1,
+      "falloff": [
+        [
+          10,
+          1.0
+        ],
+        [
+          25,
+          0.89
+        ],
+        [
+          50,
+          0.79
+        ],
+        [
+          75,
+          0.7
+        ],
+        [
+          100,
+          0.62
+        ],
+        [
+          150,
+          0.49
+        ],
+        [
+          200,
+          0.39
+        ],
+        [
+          300,
+          0.25
+        ]
+      ],
+      "source": "https://activematter.wiki.gg/wiki/9x19mm_ammo_box"
+    },
+    {
+      "name": "9x18mm",
+      "damage": 75.0,
+      "boxPrice": null,
+      "roundsPerBox": 60,
+      "hitPowerMult": 7.5,
+      "pellets": 1,
+      "falloff": [
+        [
+          10,
+          1.0
+        ],
+        [
+          25,
+          0.85
+        ],
+        [
+          50,
+          0.72
+        ],
+        [
+          75,
+          0.61
+        ],
+        [
+          100,
+          0.52
+        ],
+        [
+          150,
+          0.39
+        ],
+        [
+          200,
+          0.29
+        ]
+      ]
+    },
+    {
+      "name": "7.62x25mm",
+      "damage": 100.0,
+      "boxPrice": null,
+      "roundsPerBox": 60,
+      "hitPowerMult": 10.0,
+      "pellets": 1,
+      "falloff": [
+        [
+          10,
+          1.0
+        ],
+        [
+          25,
+          0.88
+        ],
+        [
+          50,
+          0.77
+        ],
+        [
+          75,
+          0.69
+        ],
+        [
+          100,
+          0.62
+        ],
+        [
+          150,
+          0.53
+        ],
+        [
+          200,
+          0.46
+        ],
+        [
+          300,
+          0.36
+        ]
+      ]
+    },
+    {
+      "name": "9x39mm",
+      "damage": 150.0,
+      "boxPrice": null,
+      "roundsPerBox": 60,
+      "hitPowerMult": 15.0,
+      "pellets": 1,
+      "falloff": [
+        [
+          10,
+          1.0
+        ],
+        [
+          25,
+          0.93
+        ],
+        [
+          50,
+          0.88
+        ],
+        [
+          75,
+          0.83
+        ],
+        [
+          100,
+          0.78
+        ],
+        [
+          150,
+          0.69
+        ],
+        [
+          200,
+          0.62
+        ],
+        [
+          300,
+          0.5
+        ],
+        [
+          500,
+          0.37
+        ],
+        [
+          1000,
+          0.23
+        ]
+      ]
+    },
+    {
+      "name": ".45 ACP",
+      "damage": 110.0,
+      "boxPrice": 600,
+      "roundsPerBox": 60,
+      "hitPowerMult": 11.0,
+      "pellets": 1,
+      "falloff": [
+        [
+          10,
+          1.0
+        ],
+        [
+          25,
+          0.91
+        ],
+        [
+          50,
+          0.84
+        ],
+        [
+          75,
+          0.77
+        ],
+        [
+          100,
+          0.71
+        ],
+        [
+          150,
+          0.63
+        ],
+        [
+          200,
+          0.55
+        ],
+        [
+          300,
+          0.43
+        ]
+      ]
+    },
+    {
+      "name": "12 Gauge",
+      "damage": 45.0,
+      "boxPrice": 600,
+      "roundsPerBox": 60,
+      "hitPowerMult": 4.5,
+      "pellets": 12,
+      "falloff": [
+        [
+          10,
+          1.0
+        ],
+        [
+          40,
+          0.5
+        ],
+        [
+          100,
+          0.1
+        ],
+        [
+          200,
+          0.01
+        ]
+      ]
+    },
+    {
+      "name": "23x75mm",
+      "damage": 110.0,
+      "boxPrice": null,
+      "roundsPerBox": 60,
+      "hitPowerMult": 11.0,
+      "pellets": 8,
+      "falloff": [
+        [
+          10,
+          1.0
+        ],
+        [
+          40,
+          0.5
+        ],
+        [
+          100,
+          0.1
+        ],
+        [
+          200,
+          0.01
+        ]
+      ]
+    },
+    {
+      "name": "12.7x55mm",
+      "damage": 360.0,
+      "boxPrice": 900,
+      "roundsPerBox": 60,
+      "hitPowerMult": 36.0,
+      "pellets": 1,
+      "falloff": [
+        [
+          10,
+          1.0
+        ],
+        [
+          25,
+          0.93
+        ],
+        [
+          50,
+          0.87
+        ],
+        [
+          75,
+          0.82
+        ],
+        [
+          100,
+          0.77
+        ],
+        [
+          150,
+          0.69
+        ],
+        [
+          200,
+          0.62
+        ],
+        [
+          300,
+          0.5
+        ],
+        [
+          500,
+          0.36
+        ]
+      ]
+    },
+    {
+      "name": ".50 BMG",
+      "damage": 490.0,
+      "boxPrice": null,
+      "roundsPerBox": 60,
+      "hitPowerMult": 49.0,
+      "pellets": 1,
+      "falloff": [
+        [
+          10,
+          1.0
+        ],
+        [
+          50,
+          0.94
+        ],
+        [
+          100,
+          0.88
+        ],
+        [
+          200,
+          0.77
+        ],
+        [
+          400,
+          0.59
+        ],
+        [
+          500,
+          0.51
+        ],
+        [
+          1000,
+          0.26
+        ],
+        [
+          1500,
+          0.13
+        ]
+      ]
+    },
+    {
+      "name": "Crossbow bolt",
+      "damage": 300.0,
+      "boxPrice": 300,
+      "roundsPerBox": 60,
+      "hitPowerMult": 30.0,
+      "pellets": 1,
+      "falloff": [
+        [
+          10,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "RPG-7 rocket",
+      "damage": 180.0,
+      "boxPrice": 1500,
+      "roundsPerBox": 1,
+      "hitPowerMult": null,
+      "pellets": 1,
+      "falloff": [
+        [
+          3,
+          1.0
+        ]
+      ],
+      "splash": {
+        "inner": 3.0,
+        "outer": 4.5,
+        "damage": 180.0
+      },
+      "cumulative": {
+        "armorPower": 1000.0,
+        "damage": 1000.0
+      }
+    }
+  ]
+}

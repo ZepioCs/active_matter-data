@@ -1,0 +1,329 @@
+{
+  "schemaVersion": 1,
+  "_note": "Infantry damage model from dist/blk (human_damage_model.json, helmets.json, equipment_mods.json). Part damage = hitPowerMult x falloff(distance) x dmgMult x (1 - protection[channel]). Broken armor keeps 30% of listed protection (protectionMinHpKoef). Head at 0 HP = instant death; body must reach -25; legs -15 / body -5 = 30% downed chance.",
+  "researchedAt": "2026-09-18",
+  "dmgMult": 10.0,
+  "protectionMinHpKoef": 0.3,
+  "bodyParts": [
+    {
+      "id": "head",
+      "hp": 100.0,
+      "deathAt": 0.0,
+      "armorSlot": "helmet"
+    },
+    {
+      "id": "body",
+      "hp": 220.0,
+      "deathAt": -25.0,
+      "armorSlot": "plate"
+    },
+    {
+      "id": "right_hand",
+      "hp": 130.0,
+      "limb": true
+    },
+    {
+      "id": "left_hand",
+      "hp": 130.0,
+      "limb": true
+    },
+    {
+      "id": "right_leg",
+      "hp": 165.0,
+      "downAt": -15.0,
+      "limb": true
+    },
+    {
+      "id": "left_leg",
+      "hp": 165.0,
+      "downAt": -15.0,
+      "limb": true
+    }
+  ],
+  "helmets": [
+    {
+      "id": "helmet_ussr_ssh40",
+      "hp": 120.0,
+      "protection": {
+        "DM_PROJECTILE": 0.3,
+        "DM_MELEE": 0.4,
+        "DM_EXPLOSION": 0.4,
+        "DM_COLLISION": 0.2,
+        "DM_FIRE": 0.3
+      }
+    },
+    {
+      "id": "helmet_m1",
+      "hp": 120.0,
+      "protection": {
+        "DM_PROJECTILE": 0.3,
+        "DM_MELEE": 0.4,
+        "DM_EXPLOSION": 0.4,
+        "DM_COLLISION": 0.2,
+        "DM_FIRE": 0.3
+      }
+    },
+    {
+      "id": "helmet_pasgt",
+      "hp": 140.0,
+      "protection": {
+        "DM_PROJECTILE": 0.4,
+        "DM_MELEE": 0.4,
+        "DM_EXPLOSION": 0.55,
+        "DM_COLLISION": 0.3,
+        "DM_FIRE": 0.3
+      }
+    },
+    {
+      "id": "helmet_kiver",
+      "hp": 160.0,
+      "protection": {
+        "DM_PROJECTILE": 0.45,
+        "DM_MELEE": 0.5,
+        "DM_EXPLOSION": 0.6,
+        "DM_COLLISION": 0.3,
+        "DM_FIRE": 0.3
+      }
+    },
+    {
+      "id": "helmet_a",
+      "hp": 235.0,
+      "protection": {
+        "DM_PROJECTILE": 0.65,
+        "DM_MELEE": 0.75,
+        "DM_EXPLOSION": 0.85,
+        "DM_COLLISION": 0.4,
+        "DM_FIRE": 0.4
+      }
+    },
+    {
+      "id": "helmet_fast_sf",
+      "hp": 220.0,
+      "protection": {
+        "DM_PROJECTILE": 0.65,
+        "DM_MELEE": 0.65,
+        "DM_EXPLOSION": 0.75,
+        "DM_COLLISION": 0.35,
+        "DM_FIRE": 0.3
+      }
+    },
+    {
+      "id": "helmet_tactical_headset",
+      "hp": 100.0,
+      "protection": {
+        "DM_MELEE": 0.05,
+        "DM_EXPLOSION": 0.2,
+        "DM_COLLISION": 0.05
+      }
+    }
+  ],
+  "plates": [
+    {
+      "id": "armorplate_small_steel",
+      "hp": 220.0,
+      "protection": {
+        "DM_PROJECTILE": 0.35,
+        "DM_MELEE": 0.45,
+        "DM_EXPLOSION": 0.25
+      }
+    },
+    {
+      "id": "armorplate_small_ceramic",
+      "hp": 175.0,
+      "protection": {
+        "DM_PROJECTILE": 0.5,
+        "DM_MELEE": 0.6,
+        "DM_EXPLOSION": 0.4
+      }
+    },
+    {
+      "id": "armorplate_small_titan",
+      "hp": 230.0,
+      "protection": {
+        "DM_PROJECTILE": 0.45,
+        "DM_MELEE": 0.55,
+        "DM_EXPLOSION": 0.35
+      }
+    },
+    {
+      "id": "armorplate_big_titan",
+      "hp": 360.0,
+      "protection": {
+        "DM_PROJECTILE": 0.5,
+        "DM_MELEE": 0.6,
+        "DM_EXPLOSION": 0.4
+      }
+    },
+    {
+      "id": "armorplate_huge_titan",
+      "hp": 480.0,
+      "protection": {
+        "DM_PROJECTILE": 0.6,
+        "DM_MELEE": 0.7,
+        "DM_EXPLOSION": 0.5
+      }
+    }
+  ],
+  "melee": [
+    {
+      "id": "ak_bayonet",
+      "hitPower": 14.0,
+      "armorPower": 0.8
+    },
+    {
+      "id": "ak_bayonet_rust",
+      "hitPower": 10.0,
+      "armorPower": 0.8
+    },
+    {
+      "id": "axe",
+      "hitPower": 24.0,
+      "armorPower": 0.8
+    },
+    {
+      "id": "brass_knuckles_knife_bouncer",
+      "hitPower": 14.0,
+      "armorPower": 0.8
+    },
+    {
+      "id": "car_wrench",
+      "hitPower": 5.0,
+      "armorPower": 0.7
+    },
+    {
+      "id": "changed_claws_weapon",
+      "hitPower": 16.0,
+      "armorPower": 0.8
+    },
+    {
+      "id": "chisel",
+      "hitPower": 5.0,
+      "armorPower": 0.8
+    },
+    {
+      "id": "cooking_cleaver",
+      "hitPower": 14.0,
+      "armorPower": 0.8
+    },
+    {
+      "id": "cooking_knife",
+      "hitPower": 8.0,
+      "armorPower": 0.8
+    },
+    {
+      "id": "hammer",
+      "hitPower": 29.0,
+      "armorPower": 0.6
+    },
+    {
+      "id": "knife",
+      "hitPower": 15.1,
+      "armorPower": 0.8
+    },
+    {
+      "id": "mpl50_shovel",
+      "hitPower": 23.0,
+      "armorPower": 0.8
+    },
+    {
+      "id": "pocket_knife",
+      "hitPower": 10.0,
+      "armorPower": 0.8
+    },
+    {
+      "id": "rugbeater",
+      "hitPower": 1.0,
+      "armorPower": 0.8
+    },
+    {
+      "id": "screwdriver",
+      "hitPower": 5.0,
+      "armorPower": 0.8
+    },
+    {
+      "id": "sov_knife_nr_40",
+      "hitPower": 14.0,
+      "armorPower": 0.8
+    },
+    {
+      "id": "sovmod_crowbar",
+      "hitPower": 18.0,
+      "armorPower": 0.8
+    },
+    {
+      "id": "sovmod_dirk",
+      "hitPower": 14.0,
+      "armorPower": 0.8
+    },
+    {
+      "id": "sovmod_dirk_long",
+      "hitPower": 16.0,
+      "armorPower": 0.8
+    },
+    {
+      "id": "sovmod_diver_flashlight",
+      "hitPower": 7.0,
+      "armorPower": 0.7
+    },
+    {
+      "id": "sovmod_flashlight",
+      "hitPower": 6.0,
+      "armorPower": 0.7
+    },
+    {
+      "id": "spear",
+      "hitPower": 21.0,
+      "armorPower": 0.6
+    },
+    {
+      "id": "tomahawk",
+      "hitPower": 24.0,
+      "armorPower": 0.8
+    },
+    {
+      "id": "usa_baseball_bat_a",
+      "hitPower": 24.0,
+      "armorPower": 0.5
+    },
+    {
+      "id": "usa_crowbar_a",
+      "hitPower": 18.0,
+      "armorPower": 0.8
+    },
+    {
+      "id": "usa_police_flashlight",
+      "hitPower": 6.0,
+      "armorPower": 0.7
+    },
+    {
+      "id": "wrench",
+      "hitPower": 20.0,
+      "armorPower": 0.7
+    }
+  ],
+  "grenades": [
+    {
+      "id": "f1",
+      "inner": 1.0,
+      "outer": 10.0,
+      "damage": 75.0,
+      "fuse": 3.0
+    },
+    {
+      "id": "he_grenade",
+      "inner": 1.0,
+      "outer": 7.0,
+      "damage": 50.0,
+      "fuse": 4.0,
+      "frags": 100
+    },
+    {
+      "id": "attack_grenade",
+      "inner": 1.0,
+      "outer": 20.0,
+      "damage": 50.0,
+      "fuse": 4.0,
+      "frags": 100
+    }
+  ]
+}

@@ -1,0 +1,472 @@
+[
+  {
+    "id": "m4a1",
+    "name": "M4A1",
+    "source": "https://activematter.wiki.gg/wiki/M4A1",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors.",
+    "imageUrl": "https://activematter.wiki.gg/images/M4A1.png?cc730a",
+    "filePage": "https://activematter.wiki.gg/wiki/File:M4A1.png",
+    "file": "/images/m4a1.png"
+  },
+  {
+    "id": "mp5",
+    "name": "MP5",
+    "source": "https://activematter.wiki.gg/wiki/MP5",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors.",
+    "imageUrl": "https://activematter.wiki.gg/images/MP5.png?287a5a",
+    "filePage": "https://activematter.wiki.gg/wiki/File:MP5.png",
+    "file": "/images/mp5.png"
+  },
+  {
+    "id": "ak-103",
+    "name": "AK-103",
+    "source": "https://activematter.wiki.gg/wiki/AK-103",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors.",
+    "imageUrl": "https://activematter.wiki.gg/images/AK-103.png?6eb5a5",
+    "filePage": "https://activematter.wiki.gg/wiki/File:AK-103.png",
+    "file": "/images/ak-103.png"
+  },
+  {
+    "id": "pkm",
+    "name": "PKM",
+    "source": "https://activematter.wiki.gg/wiki/PKM",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors.",
+    "imageUrl": "https://activematter.wiki.gg/images/PKM.png?5f2bba",
+    "filePage": "https://activematter.wiki.gg/wiki/File:PKM.png",
+    "file": "/images/pkm.png"
+  },
+  {
+    "id": "aek-971",
+    "name": "AEK-971",
+    "source": "https://activematter.wiki.gg/wiki/AEK-971",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors.",
+    "imageUrl": "https://activematter.wiki.gg/images/AEK-971.png?4c3e8b",
+    "filePage": "https://activematter.wiki.gg/wiki/File:AEK-971.png",
+    "file": "/images/aek-971.png"
+  },
+  {
+    "id": "rpk-74",
+    "name": "RPK-74",
+    "source": "https://activematter.wiki.gg/wiki/RPK-74",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors.",
+    "imageUrl": "https://activematter.wiki.gg/images/RPK-74.png?23c4f4",
+    "filePage": "https://activematter.wiki.gg/wiki/File:RPK-74.png",
+    "file": "/images/rpk-74.png"
+  },
+  {
+    "id": "mosin-sniper",
+    "name": "Mosin sniper rifle",
+    "source": "https://activematter.wiki.gg/wiki/Mosin_sniper_rifle",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors.",
+    "imageUrl": "https://activematter.wiki.gg/images/thumb/Mosin_sniper_rifle.png/300px-Mosin_sniper_rifle.png?5d234f",
+    "filePage": "https://activematter.wiki.gg/wiki/File:Mosin%20sniper%20rifle.png",
+    "file": "/images/mosin-sniper.png"
+  },
+  {
+    "id": "m1911a1",
+    "name": "M1911A1",
+    "source": "https://activematter.wiki.gg/wiki/M1911A1",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors.",
+    "imageUrl": "https://activematter.wiki.gg/images/M1911A1.png?599afb",
+    "filePage": "https://activematter.wiki.gg/wiki/File:M1911A1.png",
+    "file": "/images/m1911a1.png"
+  },
+  {
+    "id": "scar-l",
+    "name": "SCAR-L",
+    "source": "https://activematter.wiki.gg/wiki/SCAR-L",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors.",
+    "imageUrl": "https://activematter.wiki.gg/images/SCAR-L.png?382cd6",
+    "filePage": "https://activematter.wiki.gg/wiki/File:SCAR-L.png",
+    "file": "/images/scar-l.png"
+  },
+  {
+    "id": "sok-94-vepr",
+    "name": "SOK-94 Vepr",
+    "source": "https://activematter.wiki.gg/wiki/SOK-94_Vepr",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors.",
+    "imageUrl": "https://activematter.wiki.gg/images/thumb/SOK-94_Vepr.png/300px-SOK-94_Vepr.png?6b2b8d",
+    "filePage": "https://activematter.wiki.gg/wiki/File:SOK-94%20Vepr.png",
+    "file": "/images/sok-94-vepr.png"
+  },
+  {
+    "id": "mb590",
+    "name": "MB590",
+    "source": "https://activematter.wiki.gg/wiki/MB590",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors.",
+    "imageUrl": "https://activematter.wiki.gg/images/MB590.png?7c55eb",
+    "filePage": "https://activematter.wiki.gg/wiki/File:MB590.png",
+    "file": "/images/mb590.png"
+  },
+  {
+    "id": "m9",
+    "name": "M9",
+    "source": "https://activematter.wiki.gg/wiki/M9",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors.",
+    "imageUrl": "https://activematter.wiki.gg/images/M9.png?f0c518",
+    "filePage": "https://activematter.wiki.gg/wiki/File:M9.png",
+    "file": "/images/m9.png"
+  },
+  {
+    "id": "sv-98",
+    "name": "SV-98",
+    "source": "https://activematter.wiki.gg/wiki/SV-98",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors.",
+    "imageUrl": "https://activematter.wiki.gg/images/SV-98.png?9f7131",
+    "filePage": "https://activematter.wiki.gg/wiki/File:SV-98.png",
+    "file": "/images/sv-98.png"
+  },
+  {
+    "id": "ump45",
+    "name": "UMP45",
+    "source": "https://activematter.wiki.gg/wiki/UMP45",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors.",
+    "imageUrl": "https://activematter.wiki.gg/images/UMP45.png?6ee9cd",
+    "filePage": "https://activematter.wiki.gg/wiki/File:UMP45.png",
+    "file": "/images/ump45.png"
+  },
+  {
+    "id": "m110a1",
+    "name": "M110A1",
+    "source": "https://activematter.wiki.gg/wiki/M110A1",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors.",
+    "imageUrl": "https://activematter.wiki.gg/images/M110A1.png?17535b",
+    "filePage": "https://activematter.wiki.gg/wiki/File:M110A1.png",
+    "file": "/images/m110a1.png"
+  },
+  {
+    "id": "spas-12",
+    "name": "SPAS-12",
+    "source": "https://activematter.wiki.gg/wiki/SPAS-12",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors.",
+    "imageUrl": "https://activematter.wiki.gg/images/thumb/SPAS-12.png/300px-SPAS-12.png?4b8259",
+    "filePage": "https://activematter.wiki.gg/wiki/File:SPAS-12.png",
+    "file": "/images/spas-12.png"
+  },
+  {
+    "id": "hunting-crossbow",
+    "name": "Hunting crossbow",
+    "source": "https://activematter.wiki.gg/wiki/Hunting_crossbow",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors.",
+    "imageUrl": "https://activematter.wiki.gg/images/thumb/Hunting_crossbow.png/300px-Hunting_crossbow.png?aee1de",
+    "filePage": "https://activematter.wiki.gg/wiki/File:Hunting%20crossbow.png",
+    "file": "/images/hunting-crossbow.png"
+  },
+  {
+    "id": "scorpion-evo-3",
+    "name": "Scorpion EVO 3",
+    "source": "https://activematter.wiki.gg/wiki/Scorpion_EVO_3",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors.",
+    "imageUrl": "https://activematter.wiki.gg/images/thumb/Scorpion_EVO_3.png/300px-Scorpion_EVO_3.png?57b526",
+    "filePage": "https://activematter.wiki.gg/wiki/File:Scorpion%20EVO%203.png",
+    "file": "/images/scorpion-evo-3.png"
+  },
+  {
+    "id": "mp-443",
+    "name": "MP-443",
+    "source": "https://activematter.wiki.gg/wiki/MP-443",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors.",
+    "imageUrl": "https://activematter.wiki.gg/images/thumb/MP-443.png/300px-MP-443.png?e0d129",
+    "filePage": "https://activematter.wiki.gg/wiki/File:MP-443.png",
+    "file": "/images/mp-443.png"
+  },
+  {
+    "id": "war-hammer",
+    "name": "War hammer",
+    "source": "https://activematter.wiki.gg/wiki/War_hammer",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors.",
+    "imageUrl": "https://activematter.wiki.gg/images/thumb/War_hammer.png/300px-War_hammer.png?b9b6c3",
+    "filePage": "https://activematter.wiki.gg/wiki/File:War%20hammer.png",
+    "file": "/images/war-hammer.png"
+  },
+  {
+    "id": "combat-knife",
+    "name": "Combat knife",
+    "source": "https://activematter.wiki.gg/wiki/Combat_knife",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors.",
+    "imageUrl": "https://activematter.wiki.gg/images/thumb/Combat_knife.png/300px-Combat_knife.png?fbed01",
+    "filePage": "https://activematter.wiki.gg/wiki/File:Combat%20knife.png",
+    "file": "/images/combat-knife.png"
+  },
+  {
+    "id": "m249-para",
+    "name": "M249 Para",
+    "source": "https://activematter.wiki.gg/wiki/M249_Para",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors.",
+    "imageUrl": "https://activematter.wiki.gg/images/thumb/M249_Para.png/300px-M249_Para.png?826de0",
+    "filePage": "https://activematter.wiki.gg/wiki/File:M249%20Para.png",
+    "file": "/images/m249-para.png"
+  },
+  {
+    "id": "origin-12",
+    "name": "Origin-12",
+    "source": "https://activematter.wiki.gg/wiki/Origin-12",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors.",
+    "imageUrl": "https://activematter.wiki.gg/images/thumb/Origin-12.png/300px-Origin-12.png?d5e8b1",
+    "filePage": "https://activematter.wiki.gg/wiki/File:Origin-12.png",
+    "file": "/images/origin-12.png"
+  },
+  {
+    "id": "rpg-7",
+    "name": "RPG-7",
+    "source": "https://activematter.wiki.gg/wiki/RPG-7",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors.",
+    "imageUrl": "https://activematter.wiki.gg/images/thumb/RPG-7.png/300px-RPG-7.png?298db4",
+    "filePage": "https://activematter.wiki.gg/wiki/File:RPG-7.png",
+    "file": "/images/rpg-7.png"
+  },
+  {
+    "id": "svdm",
+    "name": "SVDM",
+    "source": "https://activematter.wiki.gg/wiki/SVDM",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors.",
+    "imageUrl": "https://activematter.wiki.gg/images/thumb/SVDM.png/300px-SVDM.png?28f881",
+    "filePage": "https://activematter.wiki.gg/wiki/File:SVDM.png",
+    "file": "/images/svdm.png"
+  },
+  {
+    "id": "an-94-abakan",
+    "name": "AN-94 Abakan",
+    "source": "https://activematter.wiki.gg/wiki/AN-94_Abakan",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors.",
+    "imageUrl": "https://activematter.wiki.gg/images/thumb/AN-94_Abakan.png/300px-AN-94_Abakan.png?288c9d",
+    "filePage": "https://activematter.wiki.gg/wiki/File:AN-94%20Abakan.png",
+    "file": "/images/an-94-abakan.png"
+  },
+  {
+    "id": "pp-19-01",
+    "name": "PP-19-01",
+    "source": "https://activematter.wiki.gg/wiki/PP-19-01",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors.",
+    "imageUrl": "https://activematter.wiki.gg/images/thumb/PP-19-01.png/300px-PP-19-01.png?a20f08",
+    "filePage": "https://activematter.wiki.gg/wiki/File:PP-19-01.png",
+    "file": "/images/pp-19-01.png"
+  },
+  {
+    "id": "m9-tactical",
+    "name": "M9 Tactical",
+    "source": "https://activematter.wiki.gg/wiki/M9_Tactical",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors.",
+    "imageUrl": "https://activematter.wiki.gg/images/thumb/M9_Tactical.png/300px-M9_Tactical.png?46a55c",
+    "filePage": "https://activematter.wiki.gg/wiki/File:M9%20Tactical.png",
+    "file": "/images/m9-tactical.png"
+  },
+  {
+    "id": "m14",
+    "name": "M14",
+    "source": "https://activematter.wiki.gg/wiki/M14",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors.",
+    "imageUrl": "https://activematter.wiki.gg/images/thumb/M14.png/300px-M14.png?3aef7d",
+    "filePage": "https://activematter.wiki.gg/wiki/File:M14.png",
+    "file": "/images/m14.png"
+  },
+  {
+    "id": "stg77-a1",
+    "name": "STG77 A1",
+    "source": "https://activematter.wiki.gg/wiki/STG77_A1",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors.",
+    "imageUrl": "https://activematter.wiki.gg/images/thumb/STG77_A1.png/300px-STG77_A1.png?fab3d3",
+    "filePage": "https://activematter.wiki.gg/wiki/File:STG77%20A1.png",
+    "file": "/images/stg77-a1.png"
+  },
+  {
+    "id": "mac-11",
+    "name": "MAC-11",
+    "file": "/images/mac-11.jpg",
+    "source": "https://activematter.game/en/news/289",
+    "imageUrl": "https://patchnotes.cdn.gaijin.net/active_matter_pc/Images/news/2026/08/1100x619_gun_3_21082026.jpg",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors."
+  },
+  {
+    "id": "rsh-12",
+    "name": "RSh-12",
+    "file": "/images/rsh-12.jpg",
+    "source": "https://activematter.game/en/news/289",
+    "imageUrl": "https://patchnotes.cdn.gaijin.net/active_matter_pc/Images/news/2026/08/1100x619_gun_1_21082026.jpg",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors."
+  },
+  {
+    "id": "dp-12",
+    "name": "DP-12",
+    "file": "/images/dp-12.jpg",
+    "source": "https://activematter.game/en/news/289",
+    "imageUrl": "https://patchnotes.cdn.gaijin.net/active_matter_pc/Images/news/2026/08/1100x619_gun_2_21082026.jpg",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors."
+  },
+  {
+    "id": "m39-emr",
+    "name": "M39 EMR",
+    "file": "/images/m39-emr.jpg",
+    "source": "https://activematter.game/en/news/286",
+    "imageUrl": "https://patchnotes.cdn.gaijin.net/active_matter_pc/Images/news/2026/08/1100x619_gun_3_20082026.jpg",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors."
+  },
+  {
+    "id": "scar-h",
+    "name": "SCAR-H",
+    "file": "/images/scar-h.jpg",
+    "source": "https://activematter.game/en/news/286",
+    "imageUrl": "https://patchnotes.cdn.gaijin.net/active_matter_pc/Images/news/2026/08/1100x619_gun_2_20082026.jpg",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors."
+  },
+  {
+    "id": "p17-v",
+    "name": "P17-V",
+    "file": "/images/p17-v.jpg",
+    "source": "https://activematter.game/en/news/286",
+    "imageUrl": "https://patchnotes.cdn.gaijin.net/active_matter_pc/Images/news/2026/08/1100x619_gun_4_20082026.jpg",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors."
+  },
+  {
+    "id": "titan-armor-plate",
+    "name": "Titan armor plate",
+    "file": "/images/titan-armor-plate.png",
+    "source": "https://activematter.wiki.gg/wiki/File:Titan_armor_plate_(L).png",
+    "imageUrl": "https://activematter.wiki.gg/images/Titan_armor_plate_%28L%29.png?d216c6",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors."
+  },
+  {
+    "id": "edh-gen-v",
+    "name": "EDH-Gen V",
+    "file": "/images/edh-gen-v.png",
+    "source": "https://activematter.wiki.gg/wiki/File:Enhanced_Helmet_EDH-Gen_V.png",
+    "imageUrl": "https://activematter.wiki.gg/images/Enhanced_Helmet_EDH-Gen_V.png?572b9c",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors."
+  },
+  {
+    "id": "tfmk-i",
+    "name": "TFMK-I",
+    "file": "/images/tfmk-i.png",
+    "source": "https://activematter.wiki.gg/wiki/File:Ballistic_helmet_TFMK-I.png",
+    "imageUrl": "https://activematter.wiki.gg/images/Ballistic_helmet_TFMK-I.png?7473d9",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors."
+  },
+  {
+    "id": "pbs-4-suppressor",
+    "name": "PBS-4 suppressor",
+    "file": "/images/pbs-4-suppressor.png",
+    "source": "https://activematter.wiki.gg/wiki/File:PBS-4_Suppressor.png",
+    "imageUrl": "https://activematter.wiki.gg/images/PBS-4_Suppressor.png?7c2b6c",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors."
+  },
+  {
+    "id": "1p78-scope",
+    "name": "1P78 scope",
+    "file": "/images/1p78-scope.png",
+    "source": "https://activematter.wiki.gg/wiki/File:Scope_1P78_2.8x_magn.png",
+    "imageUrl": "https://activematter.wiki.gg/images/Scope_1P78_2.8x_magn.png?4d2351",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors."
+  },
+  {
+    "id": "fire-extinguisher",
+    "name": "Fire extinguisher",
+    "file": "/images/fire-extinguisher.png",
+    "source": "https://activematter.wiki.gg/wiki/File:Fire_extinguisher.png",
+    "imageUrl": "https://activematter.wiki.gg/images/Fire_extinguisher.png?f7c9c8",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors."
+  },
+  {
+    "id": "small-safe-container",
+    "name": "Small safe container",
+    "file": "/images/small-safe-container.png",
+    "source": "https://activematter.wiki.gg/wiki/File:Small_safe_container.png",
+    "imageUrl": "https://activematter.wiki.gg/images/Small_safe_container.png?4ef761",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors."
+  },
+  {
+    "id": "distorted",
+    "name": "Distorted",
+    "file": "/images/distorted.png",
+    "source": "https://activematter.wiki.gg/wiki/File:Distorted.png",
+    "imageUrl": "https://activematter.wiki.gg/images/Distorted.png?8c2d22",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors."
+  },
+  {
+    "id": "shegolskoe",
+    "name": "Shegolskoe",
+    "file": "/images/shegolskoe.png",
+    "source": "https://activematter.wiki.gg/wiki/File:Shegolskoe_House_13.png",
+    "imageUrl": "https://activematter.wiki.gg/images/Shegolskoe_House_13.png?81e90c",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors."
+  },
+  {
+    "id": "dogorsk",
+    "name": "Dogorsk",
+    "file": "/images/dogorsk.png",
+    "source": "https://activematter.wiki.gg/wiki/File:Dogorsk_Jet_Monument.png",
+    "imageUrl": "https://activematter.wiki.gg/images/Dogorsk_Jet_Monument.png?1cf734",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors."
+  },
+  {
+    "id": "invisibles",
+    "name": "Invisibles",
+    "file": "/images/invisibles.png",
+    "source": "https://activematter.wiki.gg/wiki/File:Remains_of_Invisible.png",
+    "imageUrl": "https://activematter.wiki.gg/images/Remains_of_Invisible.png?cc073a",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors."
+  },
+  {
+    "id": "hellhounds",
+    "name": "Hellhounds",
+    "file": "/images/hellhounds.png",
+    "source": "https://activematter.wiki.gg/wiki/File:Remains_of_Hellhound.png",
+    "imageUrl": "https://activematter.wiki.gg/images/Remains_of_Hellhound.png?ee96dc",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors."
+  },
+  {
+    "id": "shy-girl",
+    "name": "Shy Girl",
+    "file": "/images/shy-girl.png",
+    "source": "https://activematter.wiki.gg/wiki/File:Remains_of_Shy_Girl.png",
+    "imageUrl": "https://activematter.wiki.gg/images/Remains_of_Shy_Girl.png?8cffb2",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors."
+  },
+  {
+    "id": "scorch",
+    "name": "Scorch",
+    "file": "/images/scorch.png",
+    "source": "https://activematter.wiki.gg/wiki/File:Remains_of_Scorch.png",
+    "imageUrl": "https://activematter.wiki.gg/images/Remains_of_Scorch.png?21b44e",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors."
+  },
+  {
+    "id": "medications",
+    "name": "Medications",
+    "file": "/images/medications.png",
+    "source": "https://activematter.wiki.gg/wiki/File:Medical_bag.png",
+    "imageUrl": "https://activematter.wiki.gg/images/Medical_bag.png?17ca29",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors."
+  },
+  {
+    "id": "tactical-beacon",
+    "name": "Tactical beacon",
+    "file": "/images/tactical-beacon.png",
+    "source": "https://activematter.wiki.gg/wiki/File:Beacon.png",
+    "imageUrl": "https://activematter.wiki.gg/images/Beacon.png?ccb424",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors."
+  },
+  {
+    "id": "flowermen",
+    "name": "Flowermen",
+    "file": "/images/flowermen.jpg",
+    "source": "https://activematter.game/en/",
+    "imageUrl": "https://patchnotes.cdn.gaijin.net/active_matter_pc/Images/main-page-new/kv-fight-flower.jpg",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors."
+  },
+  {
+    "id": "mimic",
+    "name": "Mimic",
+    "file": "/images/mimic.jpg",
+    "source": "https://activematter.game/en/",
+    "imageUrl": "https://patchnotes.cdn.gaijin.net/active_matter_pc/Images/main-page-new/videos/gigamimik_5sec_1280_720.jpg",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors."
+  },
+  {
+    "id": "dam",
+    "name": "Dam",
+    "file": "/images/dam.jpg",
+    "source": "https://activematter.game/en/news/104",
+    "imageUrl": "https://patchnotes.cdn.gaijin.net/active_matter_pc/Images/news/2025/12/1100x619_dam_16122025.jpg",
+    "rights": "Game imagery belongs to Gaijin Games Kft. and applicable licensors."
+  }
+]
