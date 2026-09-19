@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-09-18",
+  "researchedAt": "2026-09-19",
   "entries": [
     {
       "id": "m4a1",
@@ -13307,6 +13307,190 @@
         "scar-l",
         "scorpion-evo-3",
         "ump45"
+      ]
+    },
+    {
+      "id": "credits",
+      "name": "Credits",
+      "category": "guides",
+      "type": "Currency",
+      "summary": "The Agency's universal currency for gear, repairs and ammunition.",
+      "details": [
+        "Earned by recycling junk and equipment, killing hostiles, completing objectives, and converting collected Active Matter at 1:100 on exit.",
+        "Credits can also be bought for Crystallised Active Matter in the store.",
+        "Spent on shop equipment, consumables, weapons and ammunition (items must be unlocked in the Monolith first), plus equipment repair.",
+        "Recycling enriched gear yields fewer credits, and repeating the same task at the same location halves its credit reward."
+      ],
+      "tags": [
+        "Currency",
+        "Agency",
+        "Shop"
+      ],
+      "stats": {},
+      "sources": [
+        {
+          "title": "Credits \u00b7 Active Matter Wiki (Fandom)",
+          "url": "https://activemattergame.fandom.com/wiki/Credits",
+          "kind": "community",
+          "date": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "chronotraces",
+      "name": "Chronotraces",
+      "category": "guides",
+      "type": "Currency",
+      "summary": "Research currency for unlocking equipment blueprints in the Monolith.",
+      "details": [
+        "Spent on researching blueprints for weapons, equipment and modules; researched items can then be crafted in the Replicator for free replication.",
+        "Obtained by refining enriched items found in raids, and by using equipment in raids (weapon kills, armor damage taken) with diminishing returns on repetition.",
+        "Can only be spent on open blueprints: items unlocked in the Monolith or enriched copies extracted from the zone. Closed blueprints show as Locked in the Replicator."
+      ],
+      "tags": [
+        "Currency",
+        "Blueprints",
+        "Refiner",
+        "Replicator"
+      ],
+      "stats": {},
+      "sources": [
+        {
+          "title": "Chronotraces \u00b7 Active Matter Wiki (Fandom)",
+          "url": "https://activemattergame.fandom.com/wiki/Chronotraces",
+          "kind": "community",
+          "date": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "monolith-tokens",
+      "name": "Monolith Tokens",
+      "category": "guides",
+      "type": "Currency",
+      "summary": "Progression currency for Monolith levels and equipment unlocks.",
+      "details": [
+        "Earned by completing objectives in raids and by taking part in Nexus Battles.",
+        "Up to 14,300 tokens per day from all tasks (11,000 playing PvE only).",
+        "Unlocking every Monolith level costs 119,950 tokens in total, or 7,970 Crystallised Active Matter as an alternative. Individual level rewards do not all have to be bought to advance."
+      ],
+      "tags": [
+        "Currency",
+        "Monolith",
+        "Objectives"
+      ],
+      "stats": {},
+      "sources": [
+        {
+          "title": "Monolith Tokens \u00b7 Active Matter Wiki (Fandom)",
+          "url": "https://activemattergame.fandom.com/wiki/Monolith_Tokens",
+          "kind": "community",
+          "date": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "crystallised-active-matter",
+      "name": "Crystallised Active Matter",
+      "category": "guides",
+      "type": "Currency",
+      "summary": "Rare premium resource for the Special shop tab and Monolith levels.",
+      "details": [
+        "Main source is the daily Special Daily objective (50 units); also granted by game edition upgrades and one-time story tasks (20 units each, not refunded on Monolith reset).",
+        "Spend it on Monolith levels instead of tokens, or in the shop's Special tab \u2014 e.g. Isolated Raid Pass (25), safe containers (50\u2013200) or 10,000 Credits (100)."
+      ],
+      "tags": [
+        "Currency",
+        "Premium",
+        "Shop",
+        "Monolith"
+      ],
+      "stats": {},
+      "sources": [
+        {
+          "title": "Crystallised Active Matter \u00b7 Active Matter Wiki (Fandom)",
+          "url": "https://activemattergame.fandom.com/wiki/Crystallised_Active_Matter",
+          "kind": "community",
+          "date": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "monolith",
+      "name": "Monolith",
+      "category": "guides",
+      "type": "Progression",
+      "summary": "Twelve-level base progression system gating quests, gear and recipes.",
+      "details": [
+        "Level up by completing specific raid tasks; higher levels unlock harder quests, better equipment and new crafting recipes.",
+        "Rewards marked with a red lock carry extra requirements (e.g. Raid Explorer: Epicenter) and stay blocked until their content update releases.",
+        "After the final level, choose: enter the Future Makers (keep progress, bring the Global Wipe closer) or reset everything for a permanent Self-sacrifice reward. All awards take five full completions as of 0.1.0.204."
+      ],
+      "tags": [
+        "Progression",
+        "Base",
+        "Wipe"
+      ],
+      "stats": {},
+      "sources": [
+        {
+          "title": "Monolith \u00b7 Active Matter Wiki (Fandom)",
+          "url": "https://activemattergame.fandom.com/wiki/Monolith",
+          "kind": "community",
+          "date": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "objectives",
+      "name": "Objectives",
+      "category": "guides",
+      "type": "Gameplay",
+      "summary": "Primary and secondary raid tasks driving progression and extraction.",
+      "details": [
+        "Primary objectives are hand-picked, pay Monolith Tokens plus credits and gear, and raise raid difficulty. Mandatory ones (red icon) must be completed before the extraction portal activates, and at least one primary must always be active.",
+        "Secondary objectives are auto-accepted, easier, refresh daily, and one randomly becomes the Special Daily worth 50 Crystallised Active Matter.",
+        "31 story tasks additionally award 20 Crystallised Active Matter each plus shelter modules. Repeated primary completions pay reduced rewards."
+      ],
+      "tags": [
+        "Gameplay",
+        "Missions",
+        "Extraction"
+      ],
+      "stats": {},
+      "sources": [
+        {
+          "title": "Objectives \u00b7 Active Matter Wiki (Fandom)",
+          "url": "https://activemattergame.fandom.com/wiki/Objectives",
+          "kind": "community",
+          "date": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "ammo-types",
+      "name": "Ammo Types",
+      "category": "guides",
+      "type": "Gameplay",
+      "summary": "Caliber overview by weapon class for raid loadout planning.",
+      "details": [
+        "Handgun / SMG calibers: 9x18mm, 9x19mm, .45 ACP.",
+        "Assault rifle calibers: 9x39mm, 5.45x39mm, 5.56mm, 7.62x39mm, 7.62x51mm, 7.62x54mm, .416.",
+        "Shotgun shells: 12 Gauge, 23x75mm. Bring enough ammunition and manage it mid-raid \u2014 the wrong caliber can end a run."
+      ],
+      "tags": [
+        "Gameplay",
+        "Ammunition",
+        "Loadout"
+      ],
+      "stats": {},
+      "sources": [
+        {
+          "title": "Ammo Types \u00b7 Active Matter Wiki (Fandom)",
+          "url": "https://activemattergame.fandom.com/wiki/Ammo_Types",
+          "kind": "community",
+          "date": "2026-09-19"
+        }
       ]
     }
   ],
